@@ -25,13 +25,9 @@ Students by the end of the course will be able to ...
 
 ## Schedule
 
-**Course Dates:** Tuesday, January 19 – Thursday, March 4, 2021 (7 weeks)
+[Course Tracker Spreadsheet: Syllabus and Progress Tracker 2021 T1](https://docs.google.com/spreadsheets/d/1Thbaj3Net-P98O5Tx14RxAP_LVkwRqzsFriX5Sw3U6E/edit#gid=0)
 
-**Class Times:** Tuesday and Thursday at 9:30am–12:15pm  PST (13 class sessions)
-
-Class	Date
-
-
+<!-- 
 | Class |          Date          |                 Topics                  | Assignments & Quizzes |
 |:-----:|:----------------------:|:---------------------------------------:|:---------------------------------------:|
 |  - |  Tue, Jan 19              | No Class - MLK Day |
@@ -78,16 +74,11 @@ Class	Date
 [Bank Account]: https://www.gradescope.com/courses/196280/assignments/777357
 [Superhero Team Dueler]: https://www.gradescope.com/courses/196280/assignments/777380
 [OOP Design Challenge]: https://www.gradescope.com/courses/196280/assignments/777381
-
+ -->
+ 
 ## Assignment Submissions
 
-We will be using [Gradescope](gradescope.com), which allows us to provide fast and accurate feedback on your work. *All assigned work will be submitted through Gradescope, and assignment and exam grades will be returned through Gradescope.*
-
-As soon as grades are posted, you will be notified immediately so that you can log in and see your feedback. You may also submit regrade requests if you feel we have made a mistake.
-
-Your Gradescope login is your Make School email, and your password can be changed at [https://gradescope.com/reset_password](https://gradescope.com/reset_password). The same link can be used if you need to set your password for the first time.
-
-
+Turn in all projects as links in the Progress Tracker tab of the [Course Tracker Spreadsheet](https://docs.google.com/spreadsheets/d/1Thbaj3Net-P98O5Tx14RxAP_LVkwRqzsFriX5Sw3U6E/edit#gid=0)
 
 ## Evaluation
 
@@ -103,36 +94,10 @@ To pass this course you must meet the following requirements:
 
 
 ## How to Get Help
-<!--**Office Hours:** \
-Instructor: 30 minutes before class.\
-TAs: To be announced.
-
-**Piazza:** \
-The best way to get answers is to ask questions! Ask questions on Piazza so everyone can benefit from the response. \
-[Ask a question on Piazza →](https://make.sc/cs1.1-piazza)
--->
-
-**CoWork:** \
-CoWork is a place to study with your peers with access to staff/TA support if needed. \
-*Tuesdays at 12:45-1:45pm PST and Thursdays at 1:30-2:30pm PST*
 
 **TA and Instructor Office Hours:** \
 Check the calendar for this term's particular TAs and Instructor.
 
-##  Information Resources
+## Course Policies
 
-Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
-
-- [make.sc/library](http://make.sc/library)
-
-## Make School Course Policies
-
-- [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
-- [Grading System](https://make.sc/grading-system) - How grading is done at Make School
-- [Code of Conduct, Equity, and Inclusion](https://make.sc/code-of-conduct) - Learn about Diversity and Inclusion at Make School
-- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagiarism, cheating, and other forms of academic misconduct
-- [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of attendance for all classes at Make School
-- [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
-- [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
-- [Online Learning Tutorial](https://make.sc/online-learning-tutorial) - How to succeed in online learning at Make School
-- [Student Handbook](https://make.sc/student-handbook) - Guidelines, policies, and resources for all Make School students
+View all course policies [here](https://docs.google.com/document/d/132gwMpRoy7NdRmH8_pV_ZbOvd54rwHq_ZBhzD6eOe1o/edit)
