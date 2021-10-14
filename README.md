@@ -35,23 +35,23 @@ Course Dates: October 18, to December 10 2021
 
 | Class | Date | Topics | Assignments & Quizzes |
 |:-----:|:----:|:------:|:---------------------:|
-|  1 | Mon, Oct 18 | [Scope] & [Objects & Encapsulation] |
-|  2 | Wed, Oct 20 | [Attributes & Methods]|
-|  3 | Fri, Oct 22 | [Access Modifiers, Composition & Design] | In-class Quiz 1: Scope, Objects, Attributes, and Methods <br/><br/> Project 1: Bank Account <br/> [Project Prompt](Lessons/bank_account.md) • [Gradescope](https://www.gradescope.com/courses/196280/assignments/777357) <br/> due Mon, Feb. 8 @ 11pm PDT
-|  4 | Mon, Oct 25 | [Inheritance & Overriding] |
-|  5 | Wed, Oct 27 | [Polymorphism]  |  
-|  6 | Fri, Oct 29 | [Inheriting from Built In's and Overloading] | In-class Quiz 2: Inheritance and Polymorphism <br/><br/> Project 2: Superhero Team Dueler <br/> [Project Prompt](https://www.makeschool.com/academy/track/superhero-team-dueler) • [Gradescope](https://www.gradescope.com/courses/196280/assignments/777380) <br/> due Wed, Feb. 17 @ 11pm PDT
-|  7 | Mon, Nov  1 | [Function Arguments and Overloading]|
-|  8 | Wed, Nov  3 | [Decorators] | In-class Quiz 3: Magic Methods and Inheriting from Built Ins
-|  9 |  Nov  5 |  [Abstract Classes & Static/Class Methods]|
-| 10 | Mon, Nov  8 | [Multiple Inheritance & Mix-ins]| Project 3: OOP Design Challenge <br/> [Project Prompt](Lessons/oop_design_challenge.md) • [Gradescope](https://www.gradescope.com/courses/196280/assignments/777381) <br/> due Monday, Mar. 1 @ 11pm PDT
-| 11 | Wed, Nov 10 | Lab  |  In-class Quiz 4: Function Arguments, Decorators, Static Methods, Class Methods, and Multiple Inheritance
-| 12 | Fri, Nov 12 | OOP Design Challenge Presentations |
-| 13 | Mon, Nov 15 | OOP Design Challenge Presentations |
-| 14 | Wed, Nov 17 | OOP Design Challenge Presentations |
-| 15 | Fri, Nov 19 | OOP Design Challenge Presentations |
-| 16 | Mon, Nov 22 | OOP Design Challenge Presentations |
-| 17 | Wed, Nov 24 | OOP Design Challenge Presentations |
+|  1 | Mon, Oct 18 | [Scope] | - |
+|  2 | Wed, Oct 20 | [Objects & Encapsulation] | - |
+|  3 | Fri, Oct 22 | - | - |
+|  4 | Mon, Oct 25 | [Attributes & Methods] | - |
+|  5 | Wed, Oct 27 | [Access Modifiers, Composition & Design] | In-class Quiz 1: Scope, Objects, Attributes, and Methods <br/><br/> Project 1: Bank Account <br/> [Project Prompt](Lessons/bank_account.md) |  
+|  6 | Fri, Oct 29 | - | - |
+|  7 | Mon, Nov  1 | [Inheritance & Overriding] | - |
+|  8 | Wed, Nov  3 | [Polymorphism] | - |
+|  9 | Fri, Nov  5 | - | - |
+| 10 | Mon, Nov  8 | [Inheriting from Built In's and Overloading] | In-class Quiz 2: Inheritance and Polymorphism <br/><br/> Project 2: Superhero Team Dueler <br/> [Project Prompt](https://www.makeschool.com/academy/track/superhero-team-dueler) |
+| 11 | Wed, Nov 10 | [Function Arguments and Overloading] | - |
+| 12 | Fri, Nov 12 | - | - |
+| 13 | Mon, Nov 15 | [Decorators] | In-class Quiz 3: Magic Methods and Inheriting from Built Ins |
+| 14 | Wed, Nov 17 | [Abstract Classes & Static/Class Methods] | - |
+| 15 | Fri, Nov 19 | - | - |
+| 16 | Mon, Nov 22 | [Multiple Inheritance & Mix-ins] | Project 3: OOP Design Challenge <br/> [Project Prompt](Lessons/oop_design_challenge.md) |
+| 17 | Wed, Nov 24 | Lab | In-class Quiz 4: Function Arguments, Decorators, Static Methods, Class Methods, and Multiple Inheritance |
 | 18 | Fri, Nov 26 | OOP Design Challenge Presentations |
 | 19 | Mon, Nov 29 | OOP Design Challenge Presentations |
 | 20 | Wed, Dec  1 | OOP Design Challenge Presentations |
