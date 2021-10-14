@@ -10,9 +10,9 @@ This course reinforces the fundamentals of programming including variables, data
 
 ## Course Specifics
 
-**Course Delivery**: Online | 7 weeks | 13 sessions
+**Course Delivery**: Online | 8 weeks | 24 sessions
 
-**Course Credits**: 3 units | 37.5 Seat Hours | 75 Total Hours
+**Course Credits**: 3 units 
 
 ## Learning Objectives
 
@@ -27,24 +27,38 @@ Students by the end of the course will be able to ...
 
 [Course Tracker Spreadsheet: Syllabus and Progress Tracker 2021 T1](https://docs.google.com/spreadsheets/d/1Thbaj3Net-P98O5Tx14RxAP_LVkwRqzsFriX5Sw3U6E/edit#gid=0)
 
-<!-- 
-| Class |          Date          |                 Topics                  | Assignments & Quizzes |
-|:-----:|:----------------------:|:---------------------------------------:|:---------------------------------------:|
-|  - |  Tue, Jan 19              | No Class - MLK Day |
-|  1 |  Thu, Jan 21              | [Scope] & [Objects & Encapsulation] |
-|  2 |  Tue, Jan 26              | [Attributes & Methods]|
-|  3 |  Thu, Jan 28              | [Access Modifiers, Composition & Design] | In-class Quiz 1: Scope, Objects, Attributes, and Methods <br/><br/> Project 1: Bank Account <br/> [Project Prompt](Lessons/bank_account.md) • [Gradescope](https://www.gradescope.com/courses/196280/assignments/777357) <br/> due Mon, Feb. 8 @ 11pm PDT
-|  4 |  Tue, Feb 2               | [Inheritance & Overriding] |
-|  5 |  Thu, Feb 4               | [Polymorphism]  |  
-|  6 |  Tue, Feb 9               | [Inheriting from Built In's and Overloading] | In-class Quiz 2: Inheritance and Polymorphism <br/><br/> Project 2: Superhero Team Dueler <br/> [Project Prompt](https://www.makeschool.com/academy/track/superhero-team-dueler) • [Gradescope](https://www.gradescope.com/courses/196280/assignments/777380) <br/> due Wed, Feb. 17 @ 11pm PDT
-|  7 |  Thu, Feb 11              | [Function Arguments and Overloading]|
-|  8 |  Tue, Feb 16              | [Decorators] | In-class Quiz 3: Magic Methods and Inheriting from Built Ins
-|  9 |  Thu, Feb 18              |  [Abstract Classes & Static/Class Methods]|
-| 10 |  Tue, Feb 23	             | [Multiple Inheritance & Mix-ins]| Project 3: OOP Design Challenge <br/> [Project Prompt](Lessons/oop_design_challenge.md) • [Gradescope](https://www.gradescope.com/courses/196280/assignments/777381) <br/> due Monday, Mar. 1 @ 11pm PDT
-| 11 |  Thu, Feb 25              | Lab  |  In-class Quiz 4: Function Arguments, Decorators, Static Methods, Class Methods, and Multiple Inheritance
-| 12 |  Tue, Mar 2               | OOP Design Challenge Presentations |
-| 13 |  Tue, Mar 4               | OOP Design Challenge Presentations |
+Oct 18 - Dec 10
+MWF 1:30 - 3:20
 
+Schedule: Monday, Wednesday, and Friday 1:30 PM to 3:20 PM.
+Course Dates: October 18, to December 10 2021
+
+| Class | Date | Topics | Assignments & Quizzes |
+|:-----:|:----:|:------:|:---------------------:|
+|  1 | Mon, Oct 18 | [Scope] & [Objects & Encapsulation] |
+|  2 | Wed, Oct 20 | [Attributes & Methods]|
+|  3 | Fri, Oct 22 | [Access Modifiers, Composition & Design] | In-class Quiz 1: Scope, Objects, Attributes, and Methods <br/><br/> Project 1: Bank Account <br/> [Project Prompt](Lessons/bank_account.md) • [Gradescope](https://www.gradescope.com/courses/196280/assignments/777357) <br/> due Mon, Feb. 8 @ 11pm PDT
+|  4 | Mon, Oct 25 | [Inheritance & Overriding] |
+|  5 | Wed, Oct 27 | [Polymorphism]  |  
+|  6 | Fri, Oct 29 | [Inheriting from Built In's and Overloading] | In-class Quiz 2: Inheritance and Polymorphism <br/><br/> Project 2: Superhero Team Dueler <br/> [Project Prompt](https://www.makeschool.com/academy/track/superhero-team-dueler) • [Gradescope](https://www.gradescope.com/courses/196280/assignments/777380) <br/> due Wed, Feb. 17 @ 11pm PDT
+|  7 | Mon, Nov  1 | [Function Arguments and Overloading]|
+|  8 | Wed, Nov  3 | [Decorators] | In-class Quiz 3: Magic Methods and Inheriting from Built Ins
+|  9 |  Nov  5 |  [Abstract Classes & Static/Class Methods]|
+| 10 | Mon, Nov  8 | [Multiple Inheritance & Mix-ins]| Project 3: OOP Design Challenge <br/> [Project Prompt](Lessons/oop_design_challenge.md) • [Gradescope](https://www.gradescope.com/courses/196280/assignments/777381) <br/> due Monday, Mar. 1 @ 11pm PDT
+| 11 | Wed, Nov 10 | Lab  |  In-class Quiz 4: Function Arguments, Decorators, Static Methods, Class Methods, and Multiple Inheritance
+| 12 | Fri, Nov 12 | OOP Design Challenge Presentations |
+| 13 | Mon, Nov 15 | OOP Design Challenge Presentations |
+| 14 | Wed, Nov 17 | OOP Design Challenge Presentations |
+| 15 | Fri, Nov 19 | OOP Design Challenge Presentations |
+| 16 | Mon, Nov 22 | OOP Design Challenge Presentations |
+| 17 | Wed, Nov 24 | OOP Design Challenge Presentations |
+| 18 | Fri, Nov 26 | OOP Design Challenge Presentations |
+| 19 | Mon, Nov 29 | OOP Design Challenge Presentations |
+| 20 | Wed, Dec  1 | OOP Design Challenge Presentations |
+| 21 | Fri, Dec  3 | OOP Design Challenge Presentations |
+| 22 | Mon, Dec  6 | OOP Design Challenge Presentations |
+| 23 | Wed, Dec  8 | OOP Design Challenge Presentations |
+| 24 | Fri, Dec 10 | OOP Design Challenge Presentations |
 
 [Scope]: Lessons/scope.md
 
@@ -74,7 +88,7 @@ Students by the end of the course will be able to ...
 [Bank Account]: https://www.gradescope.com/courses/196280/assignments/777357
 [Superhero Team Dueler]: https://www.gradescope.com/courses/196280/assignments/777380
 [OOP Design Challenge]: https://www.gradescope.com/courses/196280/assignments/777381
- -->
+
  
 ## Assignment Submissions
 
