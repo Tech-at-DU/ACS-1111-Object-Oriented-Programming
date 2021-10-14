@@ -84,7 +84,6 @@ Course Dates: October 18, to December 10 2021
 
 [How Computers Work]: Lessons/how_computers_work.md
 
-
 [Bank Account]: https://www.gradescope.com/courses/196280/assignments/777357
 [Superhero Team Dueler]: https://www.gradescope.com/courses/196280/assignments/777380
 [OOP Design Challenge]: https://www.gradescope.com/courses/196280/assignments/777381
