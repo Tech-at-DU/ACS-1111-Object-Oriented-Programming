@@ -52,13 +52,13 @@ Course Dates: October 18, to December 10 2021
 | 15 | Fri, Nov 19 | - | - |
 | 16 | Mon, Nov 22 | [Multiple Inheritance & Mix-ins] | Project 3: OOP Design Challenge <br/> [Project Prompt](Lessons/oop_design_challenge.md) |
 | 17 | Wed, Nov 24 | Lab | In-class Quiz 4: Function Arguments, Decorators, Static Methods, Class Methods, and Multiple Inheritance |
-| 18 | Fri, Nov 26 | OOP Design Challenge Presentations |
-| 19 | Mon, Nov 29 | OOP Design Challenge Presentations |
-| 20 | Wed, Dec  1 | OOP Design Challenge Presentations |
-| 21 | Fri, Dec  3 | OOP Design Challenge Presentations |
-| 22 | Mon, Dec  6 | OOP Design Challenge Presentations |
-| 23 | Wed, Dec  8 | OOP Design Challenge Presentations |
-| 24 | Fri, Dec 10 | OOP Design Challenge Presentations |
+| -  | Fri, Nov 26 | Thanksgiving No Class | - |
+| 18 | Mon, Nov 29 | OOP Design Challenge Presentations | - |
+| 19 | Wed, Dec  1 | OOP Design Challenge Presentations | - |
+| 20 | Fri, Dec  3 | OOP Design Challenge Presentations | - |
+| 21 | Mon, Dec  6 | OOP Design Challenge Presentations | - |
+| 22 | Wed, Dec  8 | OOP Design Challenge Presentations | - |
+| 23 | Fri, Dec 10 | OOP Design Challenge Presentations | - |
 
 [Scope]: Lessons/scope.md
 [Objects & Encapsulation]: Lessons/objects_encapsulation.md
