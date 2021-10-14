@@ -5,7 +5,7 @@
 
 **📝 &nbsp;Class Materials:** 
   <!-- Put a link to the slides -->
-* [**Slides**](https://docs.google.com/presentation/d/1uneEUZjZJ-1H1mbm9z_yUv3-Rm2NYr7-q_xzEGURJ2E/edit?usp=sharing)
+* [**Slides**](https://docs.google.com/presentation/d/1gkC9pYcR2eW2oTo4bndZmBiRoAIl4Uwv5j4W2SVgZGw/edit#slide=id.p1)
 * **Repls:**
   * Coding Exercise 1: [https://repl.it/@MakeSchool/LocalVariables](https://repl.it/@MakeSchool/LocalVariables)
   * Coding Exercise 2: [https://repl.it/@MakeSchool/GlobalVariables](https://repl.it/@MakeSchool/GlobalVariables)
