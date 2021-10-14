@@ -61,29 +61,17 @@ Course Dates: October 18, to December 10 2021
 | 24 | Fri, Dec 10 | OOP Design Challenge Presentations |
 
 [Scope]: Lessons/scope.md
-
 [Objects & Encapsulation]: Lessons/objects_encapsulation.md
-
 [Attributes & Methods]: Lessons/attributes_methods.md
-
 [Access Modifiers, Composition & Design]: Lessons/access_modifiers_composition_design.md
-
 [Inheritance & Overriding]: Lessons/inheritance_overriding.md
-
 [Polymorphism]: Lessons/polymorphism.md
-
 [Inheriting from Built In's and Overloading]: Lessons/inheriting_builtin_overloading.md
-
 [Function Arguments and Overloading]: Lessons/function_arguments.md
-
 [Decorators]: Lessons/decorators.md
-
 [Abstract Classes & Static/Class Methods]: Lessons/abstract_classes_static_methods.md
-
 [Multiple Inheritance & Mix-ins]: Lessons/multi_inheritance_mixins.md
-
 [How Computers Work]: Lessons/how_computers_work.md
-
 [Bank Account]: https://www.gradescope.com/courses/196280/assignments/777357
 [Superhero Team Dueler]: https://www.gradescope.com/courses/196280/assignments/777380
 [OOP Design Challenge]: https://www.gradescope.com/courses/196280/assignments/777381
