@@ -211,3 +211,7 @@ calculateCircleArea()
 calculatePrice()
 displayBill()
 ```
+
+## After Class
+
+There is no homework for today! 
