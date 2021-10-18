@@ -7,10 +7,6 @@
   <!-- Put a link to the slides -->
 * [**Slides**](https://docs.google.com/presentation/d/1gkC9pYcR2eW2oTo4bndZmBiRoAIl4Uwv5j4W2SVgZGw/edit#slide=id.p1)
 
-<!-- * **Repls:**
-  * Coding Exercise 1: [https://repl.it/@MakeSchool/LocalVariables](https://repl.it/@MakeSchool/LocalVariables) -->
-
-
 ## Coding Exercise 1: Scope
 
 ```python
@@ -32,8 +28,6 @@ cube(3)
 # What will happen if we try to access base? Why?
 ## print(base)
 ```
-
-  <!-- * Coding Exercise 2: [https://repl.it/@MakeSchool/GlobalVariables](https://repl.it/@MakeSchool/GlobalVariables) -->
 
 ## Coding Exercise 2:
 
@@ -87,8 +81,6 @@ def add_year():
 # add_year()
 ```
 
-  <!-- * Kahoot: [https://create.kahoot.it/share/scoping/969373e2-3457-4264-9061-d2f7ec5dc356](https://create.kahoot.it/share/scoping/969373e2-3457-4264-9061-d2f7ec5dc356) -->
-  
 <!-- > -->
 
 ## Question: 
@@ -186,3 +178,36 @@ average = averageScores(scores)
 print(average)
 ```
 
+## Why avoid global variables? 
+
+Global variables lead to problems. The larger your program becomes the more variables it will use. 
+
+Globals variables must be tracked carefully. The more variables you have the harder it is to remember what they all do and where they are used. 
+
+Local variables on the other hand are limited in scope. It's easier to see the extend of their impact on your program. When you leave that scope you no longer need to think about those variables. 
+
+## Using arguments and parameters
+
+What could go wrong? Take a look at the code below. It's not working as intended. There are many global variables. Can you fix this? Can you remove all of the global variables and get the right answer? 
+
+```python
+radius = 10
+pricePerSqrInch = 0.05
+area = 0
+price = 0
+
+def calculateCircleArea():
+	area = 3.14 * radius * radius
+
+
+def calculatePrice():
+	price = pricePerSqrInch * area
+
+def displayBill():
+	print(f"Your bill is ${price} at ${pricePerSqrInch} per sq. inch toal area {area}")
+
+
+calculateCircleArea()
+calculatePrice()
+displayBill()
+```
