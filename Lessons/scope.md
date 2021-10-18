@@ -6,8 +6,12 @@
 **📝 &nbsp;Class Materials:** 
   <!-- Put a link to the slides -->
 * [**Slides**](https://docs.google.com/presentation/d/1gkC9pYcR2eW2oTo4bndZmBiRoAIl4Uwv5j4W2SVgZGw/edit#slide=id.p1)
-* **Repls:**
-  * Coding Exercise 1: [https://repl.it/@MakeSchool/LocalVariables](https://repl.it/@MakeSchool/LocalVariables)
+
+<!-- * **Repls:**
+  * Coding Exercise 1: [https://repl.it/@MakeSchool/LocalVariables](https://repl.it/@MakeSchool/LocalVariables) -->
+
+
+## Coding Exercise 1: Scope
 
 ```python
 def cube(base):
@@ -15,7 +19,6 @@ def cube(base):
   print(f'The cube of {base} is: {result}')
 
 cube(3)
-
 
 # What are the local variables of cube()?
 # result, base
@@ -30,9 +33,9 @@ cube(3)
 ## print(base)
 ```
 
+  <!-- * Coding Exercise 2: [https://repl.it/@MakeSchool/GlobalVariables](https://repl.it/@MakeSchool/GlobalVariables) -->
 
-
-  * Coding Exercise 2: [https://repl.it/@MakeSchool/GlobalVariables](https://repl.it/@MakeSchool/GlobalVariables)
+## Coding Exercise 2:
 
 ```python
 # global variables at the top of the file
@@ -59,29 +62,127 @@ def change_name():
   # local
   name = 'CS 1.0' 
   return name
-  #print(f'New Name: {name}')
+  # print(f'New Name: {name}')
 
 
-#welcome_class()
+# Try uncommenting each line below and running the script
+
+# welcome_class()
 # dismiss_class()
-#print_name("WEB2.0") 
-#print(name)
+# print_name("WEB2.0") 
+# print(name)
 # name = change_name()
 
 # What do you think will print?
+
 # print(name)
 
+# Examine the code here figure out the scope of name
 # Will the below code work? Why/Why not?
 def add_year(): 
   # Is name a global var here?
   name = name + ' 2021'
   print(f'New Name: {name}')
 
-add_year()
+# add_year()
 ```
 
-
-  * Kahoot: [https://create.kahoot.it/share/scoping/969373e2-3457-4264-9061-d2f7ec5dc356](https://create.kahoot.it/share/scoping/969373e2-3457-4264-9061-d2f7ec5dc356)
+  <!-- * Kahoot: [https://create.kahoot.it/share/scoping/969373e2-3457-4264-9061-d2f7ec5dc356](https://create.kahoot.it/share/scoping/969373e2-3457-4264-9061-d2f7ec5dc356) -->
   
-
 <!-- > -->
+
+## Question: 
+
+Do you think scope is causing problems or solving problems? 
+
+What kinds of problems does scope create? 
+
+What kind of problems does scope solve? 
+
+## Example 2
+
+What about scope in common blocks like for and if else? What happens when you define a variable inside one of these? 
+
+**For loop**
+
+```python 
+# Here i is defined and initialized by the for loop
+
+for i in range(1,10):
+	print(f"i: {i}")
+
+print(i) # is i "visible" here?  
+```
+
+**If else**
+
+```python
+import random
+
+# Here a is defined and initialized inside the if and the else blocks
+
+if random.random() < 0.5:
+	a = 'Hello'
+else:
+	a = 'Goodbye'
+
+print(a) # Is a visible outside of the if else block?
+```
+
+**Parameter variable**
+
+```python
+# n is a parameter variable that is defined when the 
+# count function is called
+
+def countTo(n):
+	for i in range(1, n):
+		print(f"i: {i}")
+	print(i)
+
+countTo(5)
+
+print(n) # is n "visible" here?
+print(i) # what about i ?
+```
+
+**How do we get values out of a function?**
+
+Some values will be calculated inside of a function. What do we do when we need those values outside of that function? 
+
+```python
+def listToStr(list):
+  # local vars: list, name, str
+	str = "" 
+	for name in list: 
+		str = f"{str} {name}"
+		print(str)
+	
+	return str # return values you need
+
+str = listToStr(['Andy', 'Bobby', 'Carl'])
+
+print(str) # Which str is printed here? 
+```
+
+**Challenge Question:**
+
+- How many variables are used here? 
+- What is scope of each variable? 
+
+```python
+scores = [12, 32, 24, 21]
+
+def averageScores(scores):
+	total = 0
+	for score in scores:
+		total += score
+	
+  average = total / len(scores)
+	return average
+
+
+average = averageScores(scores)
+print(average)
+```
+
