@@ -33,18 +33,18 @@ MWF 1:30 - 3:20
 Schedule: Monday, Wednesday, and Friday 1:30 PM to 3:20 PM.
 Course Dates: October 18, to December 10 2021
 
-| Class | Date | Topics | Assignments & Quizzes |
+| Class | Date | Topics | Assignments |
 |:-----:|:----:|:------:|:---------------------:|
 |  1 | Mon, Oct 18 | [Scope] | - |
 |  2 | Wed, Oct 20 | [Objects & Encapsulation] | - |
-|  3 | Fri, Oct 22 | - | - |
-|  4 | Mon, Oct 25 | [Attributes & Methods] | - |
-|  5 | Wed, Oct 27 | [Access Modifiers, Composition & Design] | In-class Quiz 1: Scope, Objects, Attributes, and Methods <br/><br/> Project 1: Bank Account <br/> [Project Prompt](Lessons/bank_account.md) |  
+|  3 | Fri, Oct 22 | - | In-class Quiz 1: Scope, Objects, Attributes, and Methods |
+|  4 | Mon, Oct 25 | [Attributes & Methods] | [Bank Account] |
+|  5 | Wed, Oct 27 | [Access Modifiers, Composition & Design] | - |  
 |  6 | Fri, Oct 29 | - | - |
 |  7 | Mon, Nov  1 | [Inheritance & Overriding] | - |
 |  8 | Wed, Nov  3 | [Polymorphism] | - |
-|  9 | Fri, Nov  5 | - | - |
-| 10 | Mon, Nov  8 | [Inheriting from Built In's and Overloading] | In-class Quiz 2: Inheritance and Polymorphism <br/><br/> Project 2: Superhero Team Dueler <br/> [Project Prompt](https://www.makeschool.com/academy/track/superhero-team-dueler) |
+|  9 | Fri, Nov  5 | - | In-class Quiz 2: Inheritance and Polymorphism |
+| 10 | Mon, Nov  8 | [Inheriting from Built In's and Overloading] | [Super Hero Dueler] |
 | 11 | Wed, Nov 10 | [Function Arguments and Overloading] | - |
 | 12 | Fri, Nov 12 | - | - |
 | 13 | Mon, Nov 15 | [Decorators] | In-class Quiz 3: Magic Methods and Inheriting from Built Ins |
@@ -72,9 +72,21 @@ Course Dates: October 18, to December 10 2021
 [Abstract Classes & Static/Class Methods]: Lessons/abstract_classes_static_methods.md
 [Multiple Inheritance & Mix-ins]: Lessons/multi_inheritance_mixins.md
 [How Computers Work]: Lessons/how_computers_work.md
-[Bank Account]: https://www.gradescope.com/courses/196280/assignments/777357
+
 [Superhero Team Dueler]: https://www.gradescope.com/courses/196280/assignments/777380
 [OOP Design Challenge]: https://www.gradescope.com/courses/196280/assignments/777381
+
+
+[Bank Account]: Lessons/bank_account.md
+[Super Hero Dueler]: https://www.makeschool.com/academy/track/superhero-team-dueler
+
+<!-- 
+
+Assignments 
+
+
+
+ -->
 
  
 ## Assignment Submissions
