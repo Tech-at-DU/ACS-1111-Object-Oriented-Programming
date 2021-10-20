@@ -78,7 +78,7 @@ Course Dates: October 18, to December 10 2021
 
 
 [Bank Account]: Lessons/bank_account.md
-[Super Hero Dueler]: https://www.makeschool.com/academy/track/superhero-team-dueler
+[Super Hero Dueler]: https://github.com/Tech-at-DU/Superhero-Team-Dueler
 
 <!-- 
 

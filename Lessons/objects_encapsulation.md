@@ -7,6 +7,8 @@
   <!-- Put a link to the slides -->
 * [**Slides**](https://docs.google.com/presentation/d/1AdhOQDIZG1lgoK2DNeZXpXjPr7zpLD6S8hr7Bpi6ITk/edit?usp=sharing)
 
+After reviewing the slides solve the problem below.
+
 ```python
 # Classes are a blueprint
 class CoffeeOrder:
