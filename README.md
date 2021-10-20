@@ -34,7 +34,7 @@ Schedule: Monday, Wednesday, and Friday 1:30 PM to 3:20 PM.
 Course Dates: October 18, to December 10 2021
 
 | Class | Date | Topics | Assignments |
-|:-----:|:----:|:------:|:---------------------:|
+|:-----:|:-----|:-------|:------------|
 |  1 | Mon, Oct 18 | [Scope] | - |
 |  2 | Wed, Oct 20 | [Objects & Encapsulation] | - |
 |  3 | Fri, Oct 22 | - | In-class Quiz 1: Scope, Objects, Attributes, and Methods |
