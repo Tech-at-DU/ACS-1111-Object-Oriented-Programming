@@ -62,6 +62,12 @@ Follow the steps below:
    - Statement - prompts for the account number and prints the statement for that account. 
    - Deposit - prompts for account number and amount. Then makes a deposit.
    - Withdraw - prompts for account number and amount. Then makes a withdrawl
+4. Create a Bank class. This class will store a list of BackAccounts. It should implement the following methods: 
+   - create_account() - creates a new account. 
+   - deposit() - deposits an amount into an account with an account number
+   - withdraw() - removes an amount from an account with an account number
+   - transfer() - withdraws an amount from an account with an account number and deposits the same amount to an account with another number. 
+   - statement() - prints an statement for an account with an account number. 
 
 ## Rubric
 
