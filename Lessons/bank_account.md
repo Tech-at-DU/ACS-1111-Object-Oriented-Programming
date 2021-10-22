@@ -40,7 +40,7 @@ Follow the steps below:
 5. Outside of the BankAccount class, define 3 different bank account examples using the `BankAccount()` object.
    * Your examples should show you using the different methods above to demonstrate them working.
 6. Include example code to do the following: 
-   - Create a new bank account instance: user: "Mitchell", account number: 3141592. 
+   - Create a new bank account instance: user: "Mitchell", account number: 03141592. 
    - Deposit $400,000 into "Mitchell's" account. 
    - Print a statement
    - Add interest to the account
