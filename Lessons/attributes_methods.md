@@ -7,8 +7,10 @@
   <!-- Put a link to the slides -->
 * [**Slides**](https://docs.google.com/presentation/d/1wPzR-Cg65Heqb7dxnxB8312yjsMTfFSHUsc9C9vIN9U/edit?usp=sharing)
 
-* **Repls:**
-  * Coding Exercise 1: [https://repl.it/@MakeSchool/DogAttributeDemo](https://repl.it/@MakeSchool/DogAttributeDemo)
+<!-- * **Repls:**
+  * Coding Exercise 1: [https://repl.it/@MakeSchool/DogAttributeDemo](https://repl.it/@MakeSchool/DogAttributeDemo) -->
+
+**Sample code**
 
 ```python
 # Created the Dog class
@@ -23,13 +25,9 @@ jess_dog = Dog()
 # Like variables, if attribute did not exist, it is created when you first assign it a value.
 
 jess_dog.name = "Tara"
-
 jess_dog.age = 1
-
 jess_dog.color = "brown"
-
 jess_dog.cuteness_level = 10
-
 
 # Update attributes similar to how you would update a variable
 jess_dog.age += 1
@@ -38,24 +36,25 @@ print(f"My age is {jess_dog.age}")
 #  the name attribute 
 #print(f"My name is {jess_dog.name}")
 
-#del jess_dog.name
+# Delete a property from an object with del
 
-
-
+# del jess_dog.name
 # print(f"My name is {jess_dog.age}")
 
 # Rather than having to print all of the attributes one by one, we can use __dict__
 print(jess_dog.__dict__)
 ```
 
-  * Coding Exercise 2: [https://repl.it/@MakeSchool/AttributePractice](https://repl.it/@MakeSchool/AttributePractice)
+  <!-- * Coding Exercise 2: [https://repl.it/@MakeSchool/AttributePractice](https://repl.it/@MakeSchool/AttributePractice) -->
+
+**Challenge 1**
 
 ```python
 # Dog class
 class Dog:
   pass
 
-# TODO: Instantiate 3 objects of type Dog  
+# TODO: Instantiate 3 objects of type Dog
 dog_1 = Dog()
 dog_2 = Dog()
 dog_3 = Dog()
@@ -64,116 +63,103 @@ dog_3 = Dog()
 # name
 # breed 
 # fave_snack
-dog_1.name = "Felix"
-dog_1.breed = "German Shepard"
-dog_1.snack = "Scooby snacks"
-
-dog_2.name = "Jemima"
-dog_2.breed = "Australian Shepard"
-dog_2.snack = "toilet paper"
-
-dog_3.name = "Lucy"
-dog_3.breed = "Shihtzu"
-dog_3.snack = "peanut butter"
 
 
 # TODO: Using the object variable names, create a list of Dog objects called dogs.
 
-dogs = [dog_1, dog_2, dog_3]
 
 # TODO: Using the loop print the names of the dogs
-for dog in dogs:
-  print(dog.name)
+
 
 # TODO: Using a loop, delete breed attribute for all the dogs in the list dogs
-for dog in dogs:
-  del dog.breed
+
 
 # TODO: Using a loop, add an attribute 'species' and assign it the value 'canine'
 
-for dog in dogs:
-  dog.species = "canine"
 
-for dog in dogs:
-  print(dog.__dict__)
+# TODO: Use the __dict__ attribute to print each dog and check it's attributes and values 
+
 
 ```
 
-  * Coding Exercise 3: [https://repl.it/@MakeSchool/WeatherAttributesPractice](https://repl.it/@MakeSchool/WeatherAttributesPractice)
+  <!-- * Coding Exercise 3: [https://repl.it/@MakeSchool/WeatherAttributesPractice](https://repl.it/@MakeSchool/WeatherAttributesPractice) -->
+
+**Challenge 2**
 
 ```python
 # Location class
 class Location:
   pass
 
-# TODO: For each member of your group, instantiate an object of type Location
+# TODO: Instantiate three locations
 
-
-# TODO: Pick a city you would like to vacation to.
 
 # TODO: Each object have the following attributes:
 # name - name of the city you picked
 # country - the country the city is located in
 # temperature - the city's temperature in F.
-# latitude - city's latitude coordinate 
-# longitude - city's longitude coordinate
+# latitude - city's latitude coordinate (look this up)
+# longitude - city's longitude coordinate (look this up)
 
 
 # TODO: Using the object variable names, create a list of Location objects called bucketlist.
+
 
 # TODO: Using the loop print the name of the city of each location in bucketlist
 
 
 # TODO: Using the loop, loop through the objects to find which location has the warmest weather
+
+
 ```
 
+  <!-- * Coding Exercise 4: [https://repl.it/@MakeSchool/ClassAttributes](https://repl.it/@MakeSchool/ClassAttributes) -->
 
-
-  * Coding Exercise 4: [https://repl.it/@MakeSchool/ClassAttributes](https://repl.it/@MakeSchool/ClassAttributes)
+**Example 2**
 
 ```python
 import math 
+
 # Students Class
 class Student:
-  # class attributes
+  # class attributes are shared by all instances
   school = "Make School"
   location = "San Francisco"
   major = "Computer Science"
 
 
 # Instantiate 2 object of type Student
+
 jhene = Student()
 kehlani = Student()
 
-# Access class methods using dot notation
+# Access class attributes using dot notation
 
 print(f"Jhene studies {jhene.major} at {jhene.school} in {jhene.location}.")
-
 print(f"Kehlani studies {kehlani.major} at {kehlani.school} in {kehlani.location}.")
-
 
 # Print the  __dict__ attribute to for each object to see a dictionary of all the attributes defined for the object itself. 
 
-#print(jhene.__dict__)
-#print(kehlani.__dict__)
+print(jhene.__dict__)
+print(kehlani.__dict__)
 
 # Why is it blank?
 
 
 # Let's say that Make School moves to San Diego
-# We can update  the class variable for all instances by:
+# We can update the class variable for all instances by:
 
-#Student.location = "San Diego"
+# Student.location = "San Diego"
 
 
 # Print the school for kehlani and jhene
-#print(f"Jhene studies in {jhene.location}.")
+# print(f"Jhene studies in {jhene.location}.")
 
-#print(f"Kehlani studies in {kehlani.location}.")
+# print(f"Kehlani studies in {kehlani.location}.")
 
 
 # TODO: Kehlani transfered , update her school to UCLA.
-#kehlani.school = "UCLA"
+# kehlani.school = "UCLA"
 
 # print(jhene.school) 
 # print(kehlani.school)
