@@ -39,7 +39,7 @@ Course Dates: October 18, to December 10 2021
 |  2 | Wed, Oct 20 | [Objects & Encapsulation] | - |
 |  3 | Fri, Oct 22 | - | In-class Quiz 1: Scope, Objects, Attributes, and Methods |
 |  4 | Mon, Oct 25 | [Attributes & Methods] | [Bank Account] |
-|  5 | Wed, Oct 27 | [Inheritance & Overriding] | - |  
+|  5 | Wed, Oct 27 | [Inheritance] | - |  
 |  6 | Fri, Oct 29 | - | - |
 |  7 | Mon, Nov  1 | [Access Modifiers, Composition & Design] | - |
 |  8 | Wed, Nov  3 | [Polymorphism] | - |
@@ -64,7 +64,7 @@ Course Dates: October 18, to December 10 2021
 [Objects & Encapsulation]: Lessons/objects_encapsulation.md
 [Attributes & Methods]: Lessons/attributes_methods.md
 [Access Modifiers, Composition & Design]: Lessons/access_modifiers_composition_design.md
-[Inheritance & Overriding]: Lessons/inheritance_overriding.md
+[Inheritance]: Lessons/inheritance_overriding.md
 [Polymorphism]: Lessons/polymorphism.md
 [Inheriting from Built In's and Overloading]: Lessons/inheriting_builtin_overloading.md
 [Function Arguments and Overloading]: Lessons/function_arguments.md

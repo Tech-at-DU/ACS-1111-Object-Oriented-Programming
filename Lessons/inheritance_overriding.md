@@ -12,83 +12,48 @@
 ```python
 # Superclass - Parent
 class Person:
-
   def __init__(self, name, age):
-    self._name = name
-    self._age = age
+    self.name = name
+    self.age = age
 
   def introduce_self(self):
-    print(f"My name is {self._name} and my age is {self._age}.")
+    print(f"My name is {self.name} and my age is {self.age}.")
 
 
-# create a Person and have them introduce themselves
-person_example = Person("Adriana", "28")
-person_example.introduce_self()
+# create two people and have them introduce themselves
+person_1 = Person("Adriana", "28")
+person_1.introduce_self()
+
+person_2 = Person("Braus", "32")
+person_2.introduce_self()
+
 # create Student class
+
 class Student(Person):
-
-  def __init__(self, name, age, year):
-    super().__init__(name,age)
-    self._year = year
-    self.courses = [] 
-
-  def get_courses(self):
-    print(f"{self._name} is taking CS 1.1") 
-
-  def introduce_self(self):
-    print(f"My name is {self._name} and I'm a Student")
-
-
-# create a Student and have them introduce themselves
-
-student_example = Student("Danika", "28", "2022")
-student_example.introduce_self()
-student_example.get_courses()
-
-#print(help(Student))
-
-```
-
-  * Coding Exercise 2: [https://repl.it/@MakeSchool/createmusiciansubclass#main.py](https://repl.it/@MakeSchool/inheritanceoverridingpractice#main.py)
+  def __init__(self, name, age, major):
+    super().__init__(name, age)
+    self.major = major
   
-```python
-# Superclass - Parent
-class Person:
-
-  def __init__(self, name, age):
-    self._name = name
-    self._age = age
+  def study(self):
+    print(f"{self.name} studies {self.major}")
 
   def introduce_self(self):
-    print(f"My name is {self._name} and my age is {self._age}.")
-
-
-# create a Person and have them introduce themselves
-person_example = Person("Adriana", "28")
-person_example.introduce_self()
-# create Student class
-class Student(Person):
-
-  def __init__(self, name, age, year):
-    super().__init__(name,age)
-    self._year = year
-    self.courses = [] 
-
-  def get_courses(self):
-    print(f"{self._name} is taking CS 1.1") 
-
-  def introduce_self(self):
-    print(f"My name is {self._name} and I'm a Student")
-
-
+    super(Student, self).introduce_self()
+    print(f"I major in {self.major}")
+    
 # create a Student and have them introduce themselves
 
-student_example = Student("Danika", "28", "2022")
-student_example.introduce_self()
-student_example.get_courses()
-
-#print(help(Student))
-
+student_1 = Student("Danika", "28", "Computer Science")
+student_1.introduce_self()
 ```
+
+## Challenges 
+
+- Create a a Musician class that extends Person
+- Muscians should have a favorite song. Musician class should have a favorite_song attribute that is initialized when an instance is created. 
+- A muscian should have a method called hum_tune. When this method is called you should print: "{name} hums {favorite_sing}" 
+- When a musician introduces themself they say: "My name is {name} and my age is {age}." and "my favorite song is {favorite_sing}". 
 
 <!-- > -->
+
+
