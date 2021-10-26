@@ -6,8 +6,9 @@
 **📝 &nbsp;Class Materials:** 
   <!-- Put a link to the slides -->
 * [**Slides**](https://docs.google.com/presentation/d/1DkCcA-xcWPfv217vKFYvWkCpQwHQjssOXR7wep_roO8/edit?usp=sharing)
-* **Repls:**
-  * Coding Exercise 1: [https://repl.it/@MakeSchool/inheritanceoverridingpractice#main.py](https://repl.it/@MakeSchool/inheritanceoverridingpractice#main.py)
+
+<!-- * **Repls:**
+  * Coding Exercise 1: [https://repl.it/@MakeSchool/inheritanceoverridingpractice#main.py](https://repl.it/@MakeSchool/inheritanceoverridingpractice#main.py) -->
 
 ```python
 # Superclass - Parent
