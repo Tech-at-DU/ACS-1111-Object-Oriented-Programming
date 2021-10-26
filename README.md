@@ -39,9 +39,9 @@ Course Dates: October 18, to December 10 2021
 |  2 | Wed, Oct 20 | [Objects & Encapsulation] | - |
 |  3 | Fri, Oct 22 | - | In-class Quiz 1: Scope, Objects, Attributes, and Methods |
 |  4 | Mon, Oct 25 | [Attributes & Methods] | [Bank Account] |
-|  5 | Wed, Oct 27 | [Access Modifiers, Composition & Design] | - |  
+|  5 | Wed, Oct 27 | [Inheritance & Overriding] | - |  
 |  6 | Fri, Oct 29 | - | - |
-|  7 | Mon, Nov  1 | [Inheritance & Overriding] | - |
+|  7 | Mon, Nov  1 | [Access Modifiers, Composition & Design] | - |
 |  8 | Wed, Nov  3 | [Polymorphism] | - |
 |  9 | Fri, Nov  5 | - | In-class Quiz 2: Inheritance and Polymorphism |
 | 10 | Mon, Nov  8 | [Inheriting from Built In's and Overloading] | [Super Hero Dueler] |
