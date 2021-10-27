@@ -68,6 +68,5 @@ student_1.introduce_self()
   - Give band a play_show method. This method plays a song. A song has a time signature so it takes a number as an argument. When a band plays a song Every band member plays their instrument and the process repeats for the time signature. For example: Band of Mick (Doo) and Kieth (Plink) plays a song in 4
     - "Doo Plink Doo Plink Doo Plink Doo Plink"
 
-<!-- > -->
 
 
