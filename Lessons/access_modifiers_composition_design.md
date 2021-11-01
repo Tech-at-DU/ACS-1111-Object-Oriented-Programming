@@ -221,6 +221,7 @@ Deck will have methods of:
 - Create a `Hand` class. A had class is like a small deck. It stores a list of `cards` in an attribute. It also has a `deck` attribute that is the deck that the hand was drawn from.
 - Add a `draw_hand()` method to the `Deck` class. This method should return a new instance of the `Hand` class and populate it with 7 cards. 
 - The `Hand` class needs a draw method. This method calls `draw` on the deck the hand is working with and adds the returned card to the hand's cards list. 
+- `Hand` should have a `show()` method. This method displays the cards in a hand by printing them. You can call the `show()` method on each card in the hand's `cards` list. 
 - A `Hand` needs a `discard_random()` method. This method chooses a random card in the hand's cards list and passes it to it's deck's discard method. 
 - Add a `discard()` method to the `Hand` class. This method takes the index of a card in the cards list and discards that card. 
  
