@@ -8,13 +8,14 @@
 * [**Slides**](https://docs.google.com/presentation/d/1RkjEvVQsAh6j-r-z1nkuys9g0ejXGoCmGy2AeGIeqbg/edit?usp=sharing)
 
 * **Repls:**
-  * Coding Exercise 1: [https://repl.it/@MakeSchool/accessmodifierspython#main.py](https://repl.it/@MakeSchool/accessmodifierspython#main.py)
+  * Coding Exercise 1: 
+  
+  <!-- [https://repl.it/@MakeSchool/accessmodifierspython#main.py](https://repl.it/@MakeSchool/accessmodifierspython#main.py) -->
 
 ```python
 #In this example we will walk through how different access modifiers are indicated in Python
-class Python:
-
-  def __init__(self, name, color, age):
+class Snake:
+  def __init__(self, name, color, type):
     #public property
     self.name = name
 
@@ -22,45 +23,60 @@ class Python:
     self._color = color
 
     #private
-    self.__age = age
+    self.__type = type
 
   def example1(self):
-    print("This is public")
-  
+    print("I eat rodents! (This is public)")
+
   def _example2(self):
-    print("This is protected")
+    print("I like to slither in the sand (This is protected)")
+    self.__example3()
 
   def __example3(self):
-    print("This is private")
+    print("I like to curl up on a hot rock! (This is private)")
 
-albert = Python("Albert", "yellow", 2) 
-#albert.__example3()
+# Make a snek caled albert
+albert = Snake("Albert", "yellow", "Python")
 
-#print(albert.name)
-#print(albert._color)
-#print(albert._Python__age)
+# Look at each line below. Predict the output 
+# by examining the class above. Then uncomment 
+# the line and run the code: 
 
-# print( dir(albert))
-
-```
-
-  * Coding Exercise 2: [https://repl.it/@MakeSchool/accessmodifierspractice#main.py](https://repl.it/@MakeSchool/accessmodifierspractice#main.py)
-
-```python
-#TODO: create a class with a name of your choice
-
-#TODO: give you class one private, one protected, and one public attribute
-
-#TODO: give you class one private, one protected, and one public method
-
-#Instantiate your class and try to modify each attribute
+# albert.__example3()
+# albert.example1()
+# albert._example2()
+# print(albert.name)
+# print(albert._color)
+# print(albert._Snake__type)
+# print( dir(albert) )
 
 ```
 
-  * Coding Exercise 3: [https://repl.it/@JessDahmen/gettersandsetters#main.py](https://repl.it/@JessDahmen/gettersandsetters#main.py)
+  * Coding Exercise 2: 
+  
+  <!-- [https://repl.it/@MakeSchool/accessmodifierspractice#main.py](https://repl.it/@MakeSchool/accessmodifierspractice#main.py) -->
 
 ```python
-#In this example we will show how to create getters and setters for properties within a class
+# Make a class that creates an instance of yourself! 
+# Your class will have some public, protected, and 
+# private attributes. 
+
+#TODO: Create a class that desribes you! Give your class three attributes
+
+#TODO: Give your class one private, one protected, and one public attribute
+
+#TODO: Give you class one private, one protected, and one public method
+
+# TODO: Instantiate your class and try to modify each attribute
+
+```
+
+  * Coding Exercise 3: 
+  
+  <!-- [https://repl.it/@JessDahmen/gettersandsetters#main.py](https://repl.it/@JessDahmen/gettersandsetters#main.py) -->
+
+```python
+# In this example we will show how to create getters and setters for properties within a class
 
 class Person:
   """This class represents a person with a name, and age"""
@@ -104,12 +120,16 @@ print(jess.get_age())
   * Coding Exercise 4: [https://repl.it/@MakeSchool/composition#main.py](https://repl.it/@MakeSchool/composition#main.py)
 
 ```python
-#Let's create a Player and then a Team class using composition!
+# Let's create a Player and then a Team class using composition!
 
 class Player:
   def __init__(self, name, number):
     self.name = name
     self.number = number
+    self.team = None
+  
+  def intro(self):
+    print(f"Name: {self.name} number: {self.number} team: {self.team.name}")
 
 
 class Team:
@@ -119,73 +139,89 @@ class Team:
     self.players = []
     self.num_players = num_players
 
-    for player in range(num_players):
-      new_player = Player("Adriana", 8)
-      self.players.append(new_player)
-
-  def addPlayer(self, player):
+  def add_player(self, player):
+    player.team = self
     self.players.append(player)
 
+  def roster(self):
+    for player in self.players:
+      print(player.name)
+
+
 myTeam = Team("CS1.1", "San Francisco", 13)
-nacho = Player("Nacho", 6)
-myTeam.addPlayer(nacho)
+andy = Player("Andy", 6)
+myTeam.add_player(andy)
 
-eden = Player("Eden Hazard", 7)
-myTeam.addPlayer(eden)
+bob = Player("Bob", 7)
+myTeam.add_player(bob)
 
+myTeam.roster()
 
-for player in myTeam.players:
-  print(player.__dict__)
-```
-  * Coding Exercise 5: [https://repl.it/@MakeSchool/DeckCardsComposition#main.py](https://repl.it/@MakeSchool/DeckCardsComposition#main.py)
+andy.intro() # andy says their name, number and team. 
 
-```python
-import random
+# Both player and Team are classes. 
+# Team has a list of players. 
+# A Team is not a Player is not a Team!
 
-class Card:
-  def __init__(self, suit, value):
-    self.suit = suit
-    self.value = value
-  
-  def show(self):
-    print(f"{self.value} of {self.suit}")
+# Note! Team owns a list of PLayers. Team can communicate 
+# with Player in the the list. See the roster method. 
 
+# On the other hand Player has no way to to communicate 
+# with its Team. That is unless we provide that mechanism!
 
-
-#myCard = Card("Hearts", 3)
-#myCard.show()
-
-class Deck:
-  def __init__(self):
-    self.cards = []
-    self.build_deck()
-
-  def build_deck(self):
-
-    suits = ["Hearts", "Spades", "Diamonds", "Clubs"]
-
-    for suit in suits:
-      for value in range(1,14):
-        new_card = Card(suit, value)
-        self.cards.append(new_card)
-
-  def shuffleDeck(self):
-    random.shuffle(self.cards)
-
-  def draw(self):
-    hand = random.sample(self.cards, 10)
-    for card in hand:
-      card.show()
-
-example_deck = Deck()
-example_deck.shuffleDeck()
-#print(example_deck.cards)
-
-#for card in example_deck.cards:
-  #card.show()
-
-example_deck.draw()
-
+# Look at the Player's team attribute. Look at the the 
+# Team's add_player method. Here, each time a player is 
+# added to the team that players team attribute is set 
+# to the team object. 
 ```
 
-<!-- > -->
+  <!-- * Coding Exercise 5: [https://repl.it/@MakeSchool/DeckCardsComposition#main.py](https://repl.it/@MakeSchool/DeckCardsComposition#main.py) -->
+
+## Challenge!
+
+You need to create two classes. One will represent a playing card. The other will represent a deck of cards. 
+
+A deck of cards has 52 cards in four suits and two colors. Suits are: 
+
+- ♠️ Spades
+- ♣️ Clubs
+- ♥️ Hearts
+- ♦️ Diamonds
+
+Values range from 1-13. 
+
+Stretch challenge values range from Ace, 2-10, Jack, Jack, Queen, King. 
+
+Color is either Red for Hearts and Diamonds, or black for Spades and Clubs. 
+
+**Card** class will have attributes of:
+
+- suit - The suit
+- value - the value
+- color - the color
+
+Card will also have a `show()` method that prints the value and suit. 
+
+**Deck** class will have attributes of: 
+
+- `cards` - a list of Card instances 
+
+Deck will have methods of: 
+
+- `create_deck()` - populates the cards list with cards. You need 52 cards 1-13 in value for each of the four suits. 
+- `shuffle()` - randomzies the list of cards. Note! You can use `random.shuffle()` from the built in python library. 
+
+**Stretch Challenges**
+
+- Add a `draw()` method to the `Deck` class. This method returns the first card in the cards list and returns it. 
+- Add a `discard_pile` attribute to the `Deck` class. This property is a list that holds cards that were discarded. 
+- Add a `discard()` method that takes a card and adds it to the discard list. 
+- Every card should know what deck it belongs to. Add a `deck` attribute to the `Card` class. When a card is created set it's `deck` to the deck that created it. 
+- Give `Card` a discard method. This method should add that card to it's deck's discard pile. A card can call discard on it's deck and pass it self as an argument!
+- Create a `Hand` class. A had class is like a small deck. It stores a list of `cards` in an attribute. It also has a `deck` attribute that is the deck that the hand was drawn from.
+- Add a `draw_hand()` method to the `Deck` class. This method should return a new instance of the `Hand` class and populate it with 7 cards. 
+- The `Hand` class needs a draw method. This method calls `draw` on the deck the hand is working with and adds the returned card to the hand's cards list. 
+- A `Hand` needs a `discard_random()` method. This method chooses a random card in the hand's cards list and passes it to it's deck's discard method. 
+- Add a `discard()` method to the `Hand` class. This method takes the index of a card in the cards list and discards that card. 
+ 
+
