@@ -8,7 +8,9 @@
 * [**Slides**](https://docs.google.com/presentation/d/1gNvsR7IuPg-BuVHyak2vgBaSJA23RTVeJpiSEN9huMI/edit?usp=sharing)
 
 * **Repls:**
-  * Coding Exercise 1: [https://repl.it/@MakeSchool/inheritanceoverridingpractice](https://repl.it/@MakeSchool/inheritanceoverridingpractice)
+  * Coding Exercise 1: 
+  
+  <!-- [https://repl.it/@MakeSchool/inheritanceoverridingpractice](https://repl.it/@MakeSchool/inheritanceoverridingpractice) -->
 
 ```python
 # Superclass - Parent
@@ -25,18 +27,19 @@ class Person:
 # create a Person and have them introduce themselves
 person_example = Person("Adriana", "28")
 person_example.introduce_self()
+
 # create Student class
 class Student(Person):
 
-  def __init__(self, name, age, year):
+  def __init__(self, name, age, year, major):
     super().__init__(name,age)
     self._year = year
-    self.courses = [] 
+    self.major = major
 
-  def get_courses(self):
-    print(f"{self._name} is taking CS 1.1") 
+  def get_courses(self): # adds a new method
+    print(f"{self._name} is majoring in {self.major}") 
 
-  def introduce_self(self):
+  def introduce_self(self): # overrides an inherited method
     print(f"My name is {self._name} and I'm a Student")
 
 
@@ -49,7 +52,9 @@ student_example.get_courses()
 #print(help(Student))
 ```
 
-  * Coding Exercise 2: [https://repl.it/@MakeSchool/Polymorphic-Classes](https://repl.it/@MakeSchool/Polymorphic-Classes)
+  * Coding Exercise 2: 
+  
+  <!-- [https://repl.it/@MakeSchool/Polymorphic-Classes](https://repl.it/@MakeSchool/Polymorphic-Classes) -->
 
 ```python
 '''
@@ -57,7 +62,6 @@ In the code below, we created a Shark class and a Clownfish class, each of which
 
 They share three methods in common with the same name. However, each of the functionalities of these methods differ for each class.
 '''
-
 
 class Shark():
   def swim(self):
@@ -68,8 +72,6 @@ class Shark():
 
   def skeleton(self):
       print("The shark's skeleton is made of cartilage.")
-
-
 
 class Clownfish():
   def swim(self):
@@ -97,10 +99,11 @@ for fish in school_of_fish:
   fish.skeleton()
 
 # Example from Digital Ocean 🐠
-
 ```
 
-  * Coding Exercise 3: [https://repl.it/@MakeSchool/Person](https://repl.it/@MakeSchool/Person)
+  * Coding Exercise 3: 
+  
+  <!-- [https://repl.it/@MakeSchool/Person](https://repl.it/@MakeSchool/Person) -->
 
 ```python
 class Person:
@@ -112,13 +115,11 @@ class Person:
 
 
 class Student(Person):
-
   def say_hello(self):
     print(f'What\'s up my name is {self.name}')
 
 
 class Teacher(Person):
-
   def say_hello(self):
     print(f'Hi, I am {self.name}. I teach CS.')
 
@@ -134,7 +135,11 @@ for person in array_people:
 
 ```
 
-  * Coding Exercise 4: [https://repl.it/@MakeSchool/animalpolymorphismexample](https://repl.it/@MakeSchool/animalpolymorphismexample)
+  * Coding Exercise 4: 
+  
+  <!-- [https://repl.it/@MakeSchool/animalpolymorphismexample](https://repl.it/@MakeSchool/animalpolymorphismexample) -->
+
+Create a separate file for each of the code snippets below. Make sure they are all in the same folder together. 
 
 ```python
 # main.py
@@ -191,7 +196,9 @@ class Monkey(Animal):
 
 ```
 
-  * Coding Exercise 5: [https://repl.it/@MakeSchool/animalpolymorphismexample](https://repl.it/@MakeSchool/animalpolymorphismexample)
+  * Coding Exercise 5: 
+  
+  <!-- [https://repl.it/@MakeSchool/animalpolymorphismexample](https://repl.it/@MakeSchool/animalpolymorphismexample) -->
 
 ```python
 # main.py
@@ -248,7 +255,9 @@ class Monkey(Animal):
     return "Ooo oo ahh ahh!"
 ```
 
-  * Coding Exercise 6: [https://repl.it/@JoiAnderson2/TrueMistyroseDigits](https://repl.it/@JoiAnderson2/TrueMistyroseDigits)  
+  * Coding Exercise 6: 
+  
+  <!-- [https://repl.it/@JoiAnderson2/TrueMistyroseDigits](https://repl.it/@JoiAnderson2/TrueMistyroseDigits)   -->
 
 ```python
 class Duck:
