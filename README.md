@@ -42,15 +42,15 @@ Course Dates: October 18, to December 10 2021
 |  5 | Wed, Oct 27 | [Inheritance] | - |  
 |  6 | Fri, Oct 29 | - | - |
 |  7 | Mon, Nov  1 | [Access Modifiers, Composition & Design] | - |
-|  8 | Wed, Nov  3 | Super Her lab | - |
+|  8 | Wed, Nov  3 | Super Hero Dueler lab | - |
 |  9 | Fri, Nov  5 | Lab | Quiz |
-| 10 | Mon, Nov  8 | - | [Super Hero Dueler] |
+| 10 | Mon, Nov  8 | [Pygame] | [Super Hero Dueler] |
 | 11 | Wed, Nov 10 | [Polymorphism] | - |
 | 12 | Fri, Nov 12 | - | In-class Quiz 2: Inheritance and Polymorphism |
 | 13 | Mon, Nov 15 | [Inheriting from Built In's and Overloading] | - |
 | 14 | Wed, Nov 17 | [Function Arguments and Overloading] | - |
 | 15 | Fri, Nov 19 | - | - |
-| 16 | Mon, Nov 22 | [Decorators] | In-class Quiz 3: Magic Methods and Inheriting from Built Ins |
+| 16 | Mon, Nov 22 | [Decorators] | [Pygame Tutorial] <!-- In-class Quiz 3: Magic Methods and Inheriting from Built Ins --> |
 | 17 | Wed, Nov 24 | [Abstract Classes & Static/Class Methods] | - |
 | -  | Fri, Nov 26 | Thanksgiving No Class | - |
 | 18 | Mon, Nov 29 | [Multiple Inheritance & Mix-ins] | Project 3: OOP Design Challenge <br/> [Project Prompt](Lessons/oop_design_challenge.md) |
@@ -65,6 +65,7 @@ Course Dates: October 18, to December 10 2021
 [Attributes & Methods]: Lessons/attributes_methods.md
 [Access Modifiers, Composition & Design]: Lessons/access_modifiers_composition_design.md
 [Inheritance]: Lessons/inheritance_overriding.md
+[Pygame]: Lessons/pygame.md
 [Polymorphism]: Lessons/polymorphism.md
 [Inheriting from Built In's and Overloading]: Lessons/inheriting_builtin_overloading.md
 [Function Arguments and Overloading]: Lessons/function_arguments.md
@@ -79,6 +80,7 @@ Course Dates: October 18, to December 10 2021
 
 [Bank Account]: Lessons/bank_account.md
 [Super Hero Dueler]: https://github.com/Tech-at-DU/Superhero-Team-Dueler
+[Pygame Tutorial]: https://github.com/Tech-at-DU/Pygame-Tutorial
 
 <!-- 
 
