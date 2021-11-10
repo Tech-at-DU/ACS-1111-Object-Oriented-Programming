@@ -45,18 +45,18 @@ Course Dates: October 18, to December 10 2021
 |  8 | Wed, Nov  3 | Super Hero Dueler lab | - |
 |  9 | Fri, Nov  5 | Lab | Quiz |
 | 10 | Mon, Nov  8 | [Pygame] | [Super Hero Dueler] |
-| 11 | Wed, Nov 10 | [Polymorphism] | - |
-| 12 | Fri, Nov 12 | - | In-class Quiz 2: Inheritance and Polymorphism |
-| 13 | Mon, Nov 15 | [Inheriting from Built In's and Overloading] | - |
-| 14 | Wed, Nov 17 | [Function Arguments and Overloading] | - |
-| 15 | Fri, Nov 19 | - | - |
-| 16 | Mon, Nov 22 | [Decorators] | [Pygame Tutorial] <!-- In-class Quiz 3: Magic Methods and Inheriting from Built Ins --> |
-| 17 | Wed, Nov 24 | [Abstract Classes & Static/Class Methods] | - |
+| 11 | Wed, Nov 10 | Lab | - |
+| 12 | Fri, Nov 12 | [Polymorphism] | - |
+| 13 | Mon, Nov 15 | Quiz 2 | [Pygame Tutorial] In-class Quiz 2: Inheritance and Polymorphism |
+| 14 | Wed, Nov 17 | [Inheriting from Built In's and Overloading] | - |
+| 15 | Fri, Nov 19 | Lab | - |
+| 16 | Mon, Nov 22 | [Function Arguments and Overloading] | - |
+| 17 | Wed, Nov 24 | [Decorators] | - <!-- In-class Quiz 3: Magic Methods and Inheriting from Built Ins --> |
 | -  | Fri, Nov 26 | Thanksgiving No Class | - |
-| 18 | Mon, Nov 29 | [Multiple Inheritance & Mix-ins] | Project 3: OOP Design Challenge <br/> [Project Prompt](Lessons/oop_design_challenge.md) |
-| 19 | Wed, Dec  1 | Lab | In-class Quiz 4: Function Arguments, Decorators, Static Methods, Class Methods, and Multiple Inheritance |
-| 20 | Fri, Dec  3 | OOP Design Challenge Presentations | - |
-| 21 | Mon, Dec  6 | OOP Design Challenge Presentations | - |
+| 18 | Mon, Nov 29 | [Abstract Classes & Static/Class Methods] |  |
+| 19 | Wed, Dec  1 | [Multiple Inheritance & Mix-ins] | Project 3: OOP Design Challenge <br/> [Project Prompt](Lessons/oop_design_challenge.md) |
+| 20 | Fri, Dec  3 | Lab | - |
+| 21 | Mon, Dec  6 | - | In-class Quiz 4: Function Arguments, Decorators, Static Methods, Class Methods, and Multiple Inheritance |
 | 22 | Wed, Dec  8 | OOP Design Challenge Presentations | - |
 | 23 | Fri, Dec 10 | OOP Design Challenge Presentations | - |
 
