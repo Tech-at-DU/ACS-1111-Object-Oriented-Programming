@@ -25,8 +25,13 @@ class Person:
 
 
 # create a Person and have them introduce themselves
-person_example = Person("Adriana", "28")
-person_example.introduce_self()
+adriana = Person("Adriana", "28")
+john = Person('John', 22)
+jerome = Person('Jerome', 33)
+jake = Person('Jake', 21)
+
+adriana.introduce_self()
+
 
 # create Student class
 class Student(Person):
@@ -58,9 +63,12 @@ student_example.get_courses()
 
 ```python
 '''
-In the code below, we created a Shark class and a Clownfish class, each of which will define methods for swim(), swim_backwards(), and skeleton().
+In the code below, we created a Shark class and a Clownfish class, 
+each of which will define methods for swim(), swim_backwards(), 
+and skeleton().
 
-They share three methods in common with the same name. However, each of the functionalities of these methods differ for each class.
+They share three methods in common with the same name. However, 
+each of the functionalities of these methods differ for each class.
 '''
 
 class Shark():
@@ -89,7 +97,9 @@ nemo = Clownfish()
 marlin = Clownfish()
 marlin_jr = Clownfish()
 
-# Now that we have two objects that make use of a common interface, we can use the two objects in the same way regardless of their individual types.
+# Now that we have two objects that make use of a common interface, 
+# we can use the two objects in the same way regardless of their 
+# individual types.
 
 school_of_fish = [jaws, nemo, marlin, marlin_jr]
 
@@ -139,7 +149,8 @@ for person in array_people:
   
   <!-- [https://repl.it/@MakeSchool/animalpolymorphismexample](https://repl.it/@MakeSchool/animalpolymorphismexample) -->
 
-Create a separate file for each of the code snippets below. Make sure they are all in the same folder together. 
+Create a separate file for each of the code snippets below. 
+Make sure they are all in the same folder together. 
 
 ```python
 # main.py
@@ -285,9 +296,12 @@ class Butterfly:
 # This is a function. It is not in a class.
 # def quack_and_fly(thing):
   
-#   # Not Duck-Typed. Why? In duck typing, we do not care if the object is an instance of Duck. We only care if it behaves like a duck when we ask it to do so.
+#   # Not Duck-Typed. Why? In duck typing, we do not care if the 
+# object is an instance of Duck. We only care if it behaves 
+# like a duck when we ask it to do so.
 
-#   # Person class has quack and fly methods, so there is not reason for it not to work. So we should remove the checks.
+#   # Person class has quack and fly methods, so there is not 
+# reason for it not to work. So we should remove the checks.
 
 #   if isinstance(thing, Duck):
 #       thing.quack()
@@ -309,7 +323,8 @@ class Butterfly:
 
 # def quack_and_fly(thing):
 
-#     # Person class has quack and fly class, so there is not reason for it not to work. So we should remove the checks.
+#     # Person class has quack and fly class, so there is not 
+# reason for it not to work. So we should remove the checks.
 
 #   thing.quack()
 #   thing.fly()
@@ -326,7 +341,8 @@ class Butterfly:
 # quack_and_fly(b)
 
 
-# # # You might be thinking... well, Joi. Wouldnt this cause error? Is this dangerous? Well, yes. 
+# # # You might be thinking... well, Joi. Wouldnt this 
+# cause error? Is this dangerous? Well, yes. 
 
 # # Instead of lets have checks that methods exist
 # # Look before you leap.
