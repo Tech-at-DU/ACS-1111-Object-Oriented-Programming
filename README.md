@@ -46,17 +46,17 @@ Course Dates: October 18, to December 10 2021
 |  9 | Fri, Nov  5 | Lab | Quiz |
 | 10 | Mon, Nov  8 | [Pygame] | [Super Hero Dueler] |
 | 11 | Wed, Nov 10 | Lab | - |
-| 12 | Fri, Nov 12 | [Polymorphism] | - |
+| 12 | Fri, Nov 12 |  | - |
 | 13 | Mon, Nov 15 | Quiz 2 | [Pygame Tutorial] In-class Quiz 2: Inheritance and Polymorphism |
-| 14 | Wed, Nov 17 | [Inheriting from Built In's and Overloading] | - |
+| 14 | Wed, Nov 17 | [Polymorphism] | - |
 | 15 | Fri, Nov 19 | Lab | - |
-| 16 | Mon, Nov 22 | [Function Arguments and Overloading] | - |
-| 17 | Wed, Nov 24 | [Decorators] | - <!-- In-class Quiz 3: Magic Methods and Inheriting from Built Ins --> |
+| 16 | Mon, Nov 22 | [Inheriting from Built In's and Overloading] | - |
+| 17 | Wed, Nov 24 | [Function Arguments and Overloading] | - <!-- In-class Quiz 3: Magic Methods and Inheriting from Built Ins --> |
 | -  | Fri, Nov 26 | Thanksgiving No Class | - |
-| 18 | Mon, Nov 29 | [Abstract Classes & Static/Class Methods] |  |
-| 19 | Wed, Dec  1 | [Multiple Inheritance & Mix-ins] | Project 3: OOP Design Challenge <br/> [Project Prompt](Lessons/oop_design_challenge.md) |
+| 18 | Mon, Nov 29 | [Decorators] |  |
+| 19 | Wed, Dec  1 | [Abstract Classes & Static/Class Methods] | Project 3: OOP Design Challenge <br/> [Project Prompt](Lessons/oop_design_challenge.md) |
 | 20 | Fri, Dec  3 | Lab | - |
-| 21 | Mon, Dec  6 | - | In-class Quiz 4: Function Arguments, Decorators, Static Methods, Class Methods, and Multiple Inheritance |
+| 21 | Mon, Dec  6 | [Multiple Inheritance & Mix-ins] | In-class Quiz 4: Function Arguments, Decorators, Static Methods, Class Methods, and Multiple Inheritance |
 | 22 | Wed, Dec  8 | OOP Design Challenge Presentations | - |
 | 23 | Fri, Dec 10 | OOP Design Challenge Presentations | - |
 
