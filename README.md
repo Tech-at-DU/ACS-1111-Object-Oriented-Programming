@@ -58,7 +58,7 @@ Course Dates: October 18, to December 10 2021
 | 20 | Fri, Dec  3 | Lab | - |
 | 21 | Mon, Dec  6 | [Multiple Inheritance & Mix-ins] | In-class Quiz 4: Function Arguments, Decorators, Static Methods, Class Methods, and Multiple Inheritance |
 | 22 | Wed, Dec  8 | OOP Design Challenge Presentations | - |
-| 23 | Fri, Dec 10 | OOP Design Challenge Presentations | - |
+| 23 | Fri, Dec 10 | OOP Design Challenge Presentations | [Herd Immunity] |
 
 [Scope]: Lessons/scope.md
 [Objects & Encapsulation]: Lessons/objects_encapsulation.md
@@ -81,6 +81,7 @@ Course Dates: October 18, to December 10 2021
 [Bank Account]: Lessons/bank_account.md
 [Super Hero Dueler]: https://github.com/Tech-at-DU/Superhero-Team-Dueler
 [Pygame Tutorial]: https://github.com/Tech-at-DU/Pygame-Tutorial
+[Herd Immunity: Projects/herdimmunity
 
 <!-- 
 
