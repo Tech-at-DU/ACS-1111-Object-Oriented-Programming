@@ -3,21 +3,48 @@
 
 ## Description
 
-We're going to create a basic simulation of herd immunity by modeling how a virus moves through a population where some (but not all) of a population is vaccinated against this virus.
+You've been  hired to work at a new data science start up. The travel of viruses through communities is a big topic with real world applications. 
 
-Imagine your job is to show how a virus might spread through a community using various parameters. The simulation will be used by researchers to model different scenarios. The researchers will need to input different parameters and see an output log describing the results of the simulation. 
+You are going to create a basic simulation of herd immunity by modeling how a virus moves through a population where some (but not all) of a population is vaccinated against the virus.
+
+Your job is to show how a virus might spread through a community using various parameters. The simulation will be used by researchers to model different scenarios. The researchers will need to input different parameters and see an output log describing the results of the simulation. 
 
 ## Learning Outcomes
 
 By completing this project, you should be able to…
 
-1. Applying functions, scope, conditionals, loops, lists, OOP, and file I/O
+1. Apply functions, scope, conditionals, loops, lists, OOP, and file I/O
 1. Practice reading spec, code comments, and starter code
 1. Practice writing basic tests and running them
 
+## The problem to solve
+
+### Overview
+
+Your simulation will take in several parameters, run a simulation, and write the results to an output file. 
+
+At a high level it should take population of infected, unifected, and immunized people, simulate interactions between them, determine infections and repreat this process for a number of steps, writing the results when complete. 
+
+### Siumlation
+
+The simulation will start with a group of people. Each person is either infected or unifected. 
+
+Infected people are infected with a a virus that has a percent chance of being passed on when this person interacts with an ininfected person. 
+
+An infected person has a percent chance of succumbing to the virus. In which case they are deceased. This is determined by the mortality rate of the virus. If a person survies infection they have acquired immunity to that virus and can not be infected in the future, and can not pass the virus in future interactions. 
+
+A virus has a name, an infection rate, and a mortality rate. The infection rate is the chance of the virus beting passed when a person carrying the virus interacts with another person. The mortality rate is the chance a person will become a fatality of the virus. 
+
+When a simulation is run it will start with the following parameters: 
+
+- initial vaccinated - This is the number of people who are vaccinated. These people can not be infected
+- initial infected - This is the number of people who are infected with the virus
+- initial healthy - This is the number of people who do not have the virus but have also not gained immunity.
+- virus - a virus object this which holds the properties determining infection rate and mortality rate. 
+
 ## Basic Structure
 
-The program consists of 4 classes: `Person`, `Virus`, `Simulation`, and `FileWriter`.
+Your program might consists of 4 classes: `Person`, `Virus`, `Simulation`, and `FileWriter`.
 
 * `Simulation`: The main class that runs the entire simulation.
 * `Person`: Represents the people that make up the population that the virus is spreading through.
@@ -49,8 +76,6 @@ The program consists of 4 classes: `Person`, `Virus`, `Simulation`, and `FileWri
 4. You will need to write two or more pieces of test code for any part of the program, using pytest is optional. 
 
 5. You will also need to submit two result files simulating a population of 10 and then a population of 100. You are free to make up any virus's you choose.
-
-
 
 ## Project Submission
 

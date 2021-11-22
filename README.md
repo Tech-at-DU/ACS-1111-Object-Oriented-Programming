@@ -81,7 +81,7 @@ Course Dates: October 18, to December 10 2021
 [Bank Account]: Lessons/bank_account.md
 [Super Hero Dueler]: https://github.com/Tech-at-DU/Superhero-Team-Dueler
 [Pygame Tutorial]: https://github.com/Tech-at-DU/Pygame-Tutorial
-[Herd Immunity: Projects/herdimmunity
+[Herd Immunity]: https://github.com/Tech-at-DU/Herd-Immunity-Simulation 
 
 <!-- 
 
