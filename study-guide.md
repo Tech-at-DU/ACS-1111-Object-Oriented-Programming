@@ -20,5 +20,6 @@ The final assessment is a way to measure the current state of your knowledge. At
 	- Initialize classes with attributes. Use the initializer
 	- Define methods in classes. 
 	- Use self
+	- Use inheritance
 
 These things sum up all of the core ideas that you will be expected to know as you move on from this class into other classes. 
