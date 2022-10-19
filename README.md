@@ -35,30 +35,21 @@ Course Dates: October 18, to December 10 2021
 
 | Class | Date | Topics | Assignments |
 |:-----:|:-----|:-------|:------------|
-|  1 | Mon, Oct 18 | [Scope] | - |
-|  2 | Wed, Oct 20 | [Objects & Encapsulation] | - |
-|  3 | Fri, Oct 22 | - | In-class Quiz 1: Scope, Objects, Attributes, and Methods |
-|  4 | Mon, Oct 25 | [Attributes & Methods] | [Bank Account] |
-|  5 | Wed, Oct 27 | [Inheritance] | - |  
-|  6 | Fri, Oct 29 | - | - |
-|  7 | Mon, Nov  1 | [Access Modifiers, Composition & Design] | - |
-|  8 | Wed, Nov  3 | Super Hero Dueler lab | - |
-|  9 | Fri, Nov  5 | Lab | Quiz |
-| 10 | Mon, Nov  8 | [Pygame] | [Super Hero Dueler] |
-| 11 | Wed, Nov 10 | Lab | - |
-| 12 | Fri, Nov 12 |  | - |
-| 13 | Mon, Nov 15 | Quiz 2 | [Pygame Tutorial] In-class Quiz 2: Inheritance and Polymorphism |
-| 14 | Wed, Nov 17 | [Polymorphism] | - |
-| 15 | Fri, Nov 19 | Lab | - |
-| 16 | Mon, Nov 22 | [Inheriting from Built In's and Overloading] | - |
-| 17 | Wed, Nov 24 | [Function Arguments and Overloading] | - <!-- In-class Quiz 3: Magic Methods and Inheriting from Built Ins --> |
-| -  | Fri, Nov 26 | Thanksgiving No Class | - |
-| 18 | Mon, Nov 29 | [Decorators] |  |
-| 19 | Wed, Dec  1 | [Abstract Classes & Static/Class Methods] | Project 3: OOP Design Challenge <br/> [Project Prompt](Lessons/oop_design_challenge.md) |
-| 20 | Fri, Dec  3 | Lab | - |
-| 21 | Mon, Dec  6 | [Multiple Inheritance & Mix-ins] | In-class Quiz 4: Function Arguments, Decorators, Static Methods, Class Methods, and Multiple Inheritance |
-| 22 | Wed, Dec  8 | OOP Design Challenge Presentations | - |
-| 23 | Fri, Dec 10 | [Final Assessment](Projects/oop-challenge.md) | [Herd Immunity] |
+|  1 | Wed, Oct 19 | [Scope] | - |
+|  2 | Mon, Oct 24 | [Objects & Encapsulation] | - |
+|  3 | Wed, Oct 26 | [Attributes & Methods] | [Bank Account] |
+|  4 | Mon, Oct 31 | [Inheritance] | - |  
+|  5 | Wed, Nov 2 | [Access Modifiers, Composition & Design] | - |
+|  6 | Mon, Nov 7 | [Pygame] & [Pygame Tutorial] | [Super Hero Dueler] |
+|  7 | Wed, Nov 9 | [Polymorphism] | - |
+| 8 | Mon, Nov 14 | [Inheriting from Built In's and Overloading] | - |
+| 9 | Wed, Nov 16 | [Function Arguments and Overloading] | - |
+| 10 | Mon, Nov 21 | [Decorators] | - |
+| 11 | Wed, Nov 23 | [Abstract Classes & Static/Class Methods] | Project 3: OOP Design Challenge <br/> [Project Prompt](Lessons/oop_design_challenge.md) |
+| 12 | Mon, Nov 28 | [Multiple Inheritance & Mix-ins] | - |
+| 12 | Mon, Nov 30 | Lab Day: Work on Presentations, Herd Immunity Project | - |
+| 13 | Mon, Dec  5 | OOP Design Challenge Presentations | - |
+| 14 | Mon, Dec  7 | [Final Assessment](Projects/oop-challenge.md) | [Herd Immunity] |
 
 [Scope]: Lessons/scope.md
 [Objects & Encapsulation]: Lessons/objects_encapsulation.md
