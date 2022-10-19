@@ -1,4 +1,4 @@
-# ACS-1111: Object Oriented Programming
+# ACS 1111: Object Oriented Programming
 
 ## Course Description
 
