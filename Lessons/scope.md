@@ -95,7 +95,7 @@ What kind of problems does scope solve?
 
 What about scope in common blocks like for and if else? What happens when you define a variable inside one of these? 
 
-**For loop**
+**For Loop**
 
 ```python 
 # Here i is defined and initialized by the for loop
@@ -106,7 +106,7 @@ for i in range(1,10):
 print(i) # is i "visible" here?  
 ```
 
-**If else**
+**If Else**
 
 ```python
 import random
@@ -122,7 +122,7 @@ else:
 print(a) # Is a visible outside of the if else block?
 ```
 
-**Parameter variable**
+**Parameter**
 
 ```python
 # n is a parameter variable that is defined when the count function is called
