@@ -1,4 +1,4 @@
-# ACS-1111 - CS 1.1: Object Oriented Programming
+# ACS-1111: Object Oriented Programming
 
 ## Course Description
 
@@ -6,7 +6,7 @@ This course reinforces the fundamentals of programming including variables, data
 
 ## Prerequisites
 
-- [CS 1.0 - Introduction to Programming](https://make.sc/cs1.0)
+- ACS 1100: Introduction to Programming
 
 ## Course Specifics
 
@@ -25,18 +25,13 @@ Students by the end of the course will be able to ...
 
 ## Schedule
 
-[Course Tracker Spreadsheet: Syllabus and Progress Tracker 2021 T1](https://docs.google.com/spreadsheets/d/1Thbaj3Net-P98O5Tx14RxAP_LVkwRqzsFriX5Sw3U6E/edit#gid=0)
-
-Oct 18 - Dec 10
-MWF 1:30 - 3:20
-
-Schedule: Monday, Wednesday, and Friday 1:30 PM to 3:20 PM.
-Course Dates: October 18, to December 10 2021
+Schedule: Monday and Wednesday, 1:00 PM to 3:45 PM <br>
+Course Dates: October 19 though December 9, 2022
 
 | Class | Date | Topics | Assignments |
 |:-----:|:-----|:-------|:------------|
-|  1 | Wed, Oct 19 | [Scope] | - |
-|  2 | Mon, Oct 24 | [Objects & Encapsulation] | - |
+|  1 | Wed, Oct 19 | [How Computers Work] | - |
+|  2 | Mon, Oct 24 | [Scope] & [Objects & Encapsulation] | - |
 |  3 | Wed, Oct 26 | [Attributes & Methods] | [Bank Account] |
 |  4 | Mon, Oct 31 | [Inheritance] | - |  
 |  5 | Wed, Nov 2 | [Access Modifiers, Composition & Design] | - |
@@ -47,7 +42,7 @@ Course Dates: October 18, to December 10 2021
 | 10 | Mon, Nov 21 | [Decorators] | - |
 | 11 | Wed, Nov 23 | [Abstract Classes & Static/Class Methods] | Project 3: OOP Design Challenge <br/> [Project Prompt](Lessons/oop_design_challenge.md) |
 | 12 | Mon, Nov 28 | [Multiple Inheritance & Mix-ins] | - |
-| 12 | Mon, Nov 30 | Lab Day: Work on Presentations, Herd Immunity Project | - |
+| 12 | Mon, Nov 30 | Lab Day: Work on Presentations, Projects | - |
 | 13 | Mon, Dec  5 | OOP Design Challenge Presentations | - |
 | 14 | Mon, Dec  7 | [Final Assessment](Projects/oop-challenge.md) | [Herd Immunity] |
 
@@ -74,36 +69,30 @@ Course Dates: October 18, to December 10 2021
 [Pygame Tutorial]: https://github.com/Tech-at-DU/Pygame-Tutorial
 [Herd Immunity]: https://github.com/Tech-at-DU/Herd-Immunity-Simulation 
 
-<!-- 
-
-Assignments 
-
-
-
- -->
-
  
 ## Assignment Submissions
 
-Turn in all projects as links in the Progress Tracker tab of the [Course Tracker Spreadsheet](https://docs.google.com/spreadsheets/d/1Thbaj3Net-P98O5Tx14RxAP_LVkwRqzsFriX5Sw3U6E/edit#gid=0)
+All assignments will be submitted on Gradescope. Your instructor will provide access to Gradescope after introducting the first assignment.
 
 ## Evaluation
 
 To pass this course you must meet the following requirements:
 
-- Complete all in-class quizzes.
-- If a quiz is missing, you will need to request to receive a  a retake/extension.
-- Pass all assignments with a score 70% or higher.
+- Complete all in-class quizzes. If a quiz is missing, you will need to request a retake/extension.
+- Pass all assignments and projects with a score 70% or higher.
 - All assignments are scored according to the associated assignment rubric.
-- If an assignment is not passing, you will need to request to receive a retake/extension to bring you score up to passing.
 - Actively participate in class and abide by the attendance policy.
 - Make up all classwork from all absences.
 
-
 ## How to Get Help
 
-**TA and Instructor Office Hours:** \
+### TA and Instructor Office Hours
+
 Check the calendar for this term's particular TAs and Instructor.
+
+### Class Recordings
+
+All class recordings will be available here no later than 24 hours after the class session. For privacy reasons, please do not share the recordings outside of the ACS student body.
 
 ## Course Policies
 
