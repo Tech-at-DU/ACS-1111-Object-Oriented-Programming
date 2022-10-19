@@ -42,9 +42,9 @@ Course Dates: October 19 though December 9, 2022
 | 10 | Mon, Nov 21 | [Decorators] | - |
 | 11 | Wed, Nov 23 | [Abstract Classes & Static/Class Methods] | Project 3: OOP Design Challenge <br/> [Project Prompt](Lessons/oop_design_challenge.md) |
 | 12 | Mon, Nov 28 | [Multiple Inheritance & Mix-ins] | - |
-| 12 | Mon, Nov 30 | Lab Day: Work on Presentations, Projects | - |
+| 12 | Wed, Nov 30 | Lab Day: Work on Presentations, Projects | - |
 | 13 | Mon, Dec  5 | OOP Design Challenge Presentations | - |
-| 14 | Mon, Dec  7 | [Final Assessment](Projects/oop-challenge.md) | [Herd Immunity] |
+| 14 | Wed, Dec  7 | [Final Assessment](Projects/oop-challenge.md) ([Study Guide](study-guide.md)) | [Herd Immunity] |
 
 [Scope]: Lessons/scope.md
 [Objects & Encapsulation]: Lessons/objects_encapsulation.md
