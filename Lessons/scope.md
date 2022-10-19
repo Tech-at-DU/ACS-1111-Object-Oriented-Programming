@@ -147,10 +147,10 @@ Some values will be calculated inside of a function. What do we do when we need 
 def list_to_str(list):
     # local vars: list, name, str
     str = "" 
-        for name in list: 
-            str = f"{str} {name}"
-            print(str)
-	    return str # return values you need
+    for name in list: 
+        str = f"{str} {name}"
+        print(str)
+        return str # return values you need
 
 
 str = list_to_str(['Andy', 'Bobby', 'Carl'])
@@ -171,8 +171,8 @@ def average_scores(scores):
     for score in scores:
         total += score
 	
-     average = total / len(scores)
-     return average
+    average = total / len(scores)
+    return average
 
 
 average = average_scores(scores)
