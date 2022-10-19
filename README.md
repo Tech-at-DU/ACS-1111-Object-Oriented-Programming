@@ -30,8 +30,8 @@ Course Dates: October 19 though December 9, 2022
 
 | Class | Date | Topics | Assignments |
 |:-----:|:-----|:-------|:------------|
-|  1 | Wed, Oct 19 | [How Computers Work] | - |
-|  2 | Mon, Oct 24 | [Scope] & [Objects & Encapsulation] | - |
+|  1 | Wed, Oct 19 | [Scope] | - |
+|  2 | Mon, Oct 24 | [Objects & Encapsulation] | - |
 |  3 | Wed, Oct 26 | [Attributes & Methods] | [Bank Account] |
 |  4 | Mon, Oct 31 | [Inheritance] | - |  
 |  5 | Wed, Nov 2 | [Access Modifiers, Composition & Design] | - |
