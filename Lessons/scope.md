@@ -11,8 +11,8 @@
 
 ```python
 def cube(base):
-  result = base ** 3
-  print(f'The cube of {base} is: {result}')
+    result = base ** 3
+    print(f'The cube of {base} is: {result}')
 
 cube(3)
 
@@ -26,7 +26,7 @@ cube(3)
 # error, result is local to the func
 
 # What will happen if we try to access base? Why?
-## print(base)
+# print(base)
 ```
 
 ## Coding Exercise 2:
@@ -37,26 +37,22 @@ cube(3)
 name = "CS 1.1"
 
 def welcome_class():
-  # Is name a global var here?
-  # yes
-  print(f'Welcome {name}!')
+    # Is name a global var here?
+    print(f'Welcome {name}!')
 
 def dismiss_class():
-  # Is name a global var here?
-  # yes
-  print(f'Goodbye {name}!')
+    # Is name a global var here?
+    print(f'Goodbye {name}!')
 
 def print_name(name):
-  # Is name a global var here? 
-  # no, it's local
-  print(f'Class Name: {name}')
+    # Is name a global var here? 
+    print(f'Class Name: {name}')
 
 def change_name():
-  # Is name a global var here?
-  # local
-  name = 'CS 1.0' 
-  return name
-  # print(f'New Name: {name}')
+    # Is name a global var here?
+    name = 'CS 1.0' 
+    return name
+    # print(f'New Name: {name}')
 
 
 # Try uncommenting each line below and running the script
@@ -74,9 +70,9 @@ def change_name():
 # Examine the code here figure out the scope of name
 # Will the below code work? Why/Why not?
 def add_year(): 
-  # Is name a global var here?
-  name = name + ' 2021'
-  print(f'New Name: {name}')
+    # Is name a global var here?
+    name = name + ' 2021'
+    print(f'New Name: {name}')
 
 # add_year()
 ```
