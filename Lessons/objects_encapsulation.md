@@ -19,13 +19,13 @@ class CoffeeOrder:
 
 # Each are their own unique instances of the CoffeeOrder class:
 
-adrianaOrder = CoffeeOrder("adriana", "latte")
-marianaOrder = CoffeeOrder("mariana", "mocha")
+adriana_order = CoffeeOrder("adriana", "latte")
+mariana_order = CoffeeOrder("mariana", "mocha")
 
 # When we print them, we can see that they are both CoffeeOrder objects and saved into memory at different locations.
 
-print(adrianaOrder.name)
-print(marianaOrder.name)
+print(adriana_order.name)
+print(mariana_order.name)
 
 # TODO: Order yourself a coffee by making a new instance of the CoffeeOrder class. 
 # - Define a new variable and initialize an instance of CoffeeOrder
