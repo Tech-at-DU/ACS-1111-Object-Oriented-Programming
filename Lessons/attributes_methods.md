@@ -67,7 +67,7 @@ print(jess_dog.__dict__)
 
   <!-- * Coding Exercise 2: [https://repl.it/@MakeSchool/AttributePractice](https://repl.it/@MakeSchool/AttributePractice) -->
 
-**Challenge 1**
+## Challenge 1
 
 ```python
 # TODO: We need to define a Dog class. All dogs will have the following 
@@ -109,7 +109,7 @@ dog_3 = Dog()
 
   <!-- * Coding Exercise 3: [https://repl.it/@MakeSchool/WeatherAttributesPractice](https://repl.it/@MakeSchool/WeatherAttributesPractice) -->
 
-**Challenge 2**
+## Challenge 2
 
 ```python
 # TODO: Each object should have the following attributes:
@@ -146,7 +146,7 @@ class Location:
 
   <!-- * Coding Exercise 4: [https://repl.it/@MakeSchool/ClassAttributes](https://repl.it/@MakeSchool/ClassAttributes) -->
 
-**Example 2**
+## Challenge 2.5
 
 ```python
 # Students Class
@@ -217,7 +217,7 @@ print(kehlani.__dict__)
 
 ```
 
-**Challenge 3**
+## Challenge 3
 
 ```python
 # Let's add instance attributes to the Students class:
