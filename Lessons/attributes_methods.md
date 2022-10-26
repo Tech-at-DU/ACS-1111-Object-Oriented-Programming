@@ -15,7 +15,7 @@
 ```python
 # Created the Dog class
 class Dog:
-  pass
+    pass
 
 # Instatiation
 jess_dog = Dog()
@@ -82,7 +82,7 @@ print(jess_dog.__dict__)
 
 # Dog class
 class Dog:
-  pass
+    pass
 
 # TODO: Instantiate 3 objects of type Dog
 dog_1 = Dog()
@@ -121,7 +121,7 @@ dog_3 = Dog()
 
 # Location class
 class Location:
-  pass
+    pass
 
 # TODO: Instantiate three locations. Instaniate each location with the correct values for 
 # name, country, temperature, latitude, longitude. For the last three look up the correct 
@@ -151,10 +151,10 @@ class Location:
 ```python
 # Students Class
 class Student:
-  # class attributes are shared by all instances
-  school = "Make School"
-  location = "San Francisco"
-  major = "Computer Science"
+    # class attributes are shared by all instances
+    school = "Make School"
+    location = "San Francisco"
+    major = "Computer Science"
 
 
 # TODO: Instantiate 2 object of type Student
@@ -223,16 +223,16 @@ print(kehlani.__dict__)
 # Let's add instance attributes to the Students class:
 
 class Student:
-  # Class attributes
-  school = 'Make School'
-  location = 'San Francisco'
-  major = 'Computer Science'
+    # Class attributes
+    school = 'Make School'
+    location = 'San Francisco'
+    major = 'Computer Science'
 
-  def __init__(self, name, year, coach):
-    # instance attributes
-    self.name = name
-    self.year = year
-    self.coach = coach
+    def __init__(self, name, year, coach):
+      # instance attributes
+      self.name = name
+      self.year = year
+      self.coach = coach
 
 
 # TODO: Add three instances with attributes:
