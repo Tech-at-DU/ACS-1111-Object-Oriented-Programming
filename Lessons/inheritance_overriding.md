@@ -13,12 +13,12 @@
 ```python
 # Superclass - Parent
 class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-  def introduce_self(self):
-    print(f"My name is {self.name} and my age is {self.age}.")
+    def introduce_self(self):
+        print(f"My name is {self.name} and my age is {self.age}.")
 
 
 # create two people and have them introduce themselves
@@ -31,16 +31,16 @@ person_2.introduce_self()
 # create Student class
 
 class Student(Person):
-  def __init__(self, name, age, major):
-    super().__init__(name, age)
-    self.major = major
+    def __init__(self, name, age, major):
+        super().__init__(name, age)
+        self.major = major
   
-  def study(self):
-    print(f"{self.name} studies {self.major}")
+    def study(self):
+        print(f"{self.name} studies {self.major}")
 
-  def introduce_self(self):
-    super(Student, self).introduce_self()
-    print(f"I major in {self.major}")
+    def introduce_self(self):
+        super(Student, self).introduce_self()
+        print(f"I major in {self.major}")
     
 # create a Student and have them introduce themselves
 
