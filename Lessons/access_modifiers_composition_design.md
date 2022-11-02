@@ -208,7 +208,7 @@ Card will also have a `show()` method that prints the value and suit.
 
 Deck will have methods of: 
 
-- `create_deck()` - populates the cards list with cards. You need 52 cards 1-13 in value for each of the four suits. 
+- `add_card()` - populates the cards list with cards. 
 - `shuffle()` - randomzies the list of cards. Note! You can use `random.shuffle()` from the built in python library. 
 
 **Stretch Challenges**
