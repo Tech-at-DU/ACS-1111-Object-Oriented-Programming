@@ -12,7 +12,7 @@ Pygame uses OOP. The Pygame modules contain several classes that you will use to
 
 **[Sprite](https://www.pygame.org/docs/ref/sprite.html)** - This is a base class used to display things on the screen. You'll subclass it to make your specialized game objects. 
 
-**Inheritence** - A cofre feature of OOP. You'll use inheritence to create sepcialized classes from baseclasses. 
+**Inheritence** - A core feature of OOP. You'll use inheritence to create sepcialized classes from baseclasses. 
 
 **[Group](https://www.pygame.org/docs/ref/sprite.html#pygame.sprite.Group)** - Group is a class used to manage groups of Sprites. You'll it's methods and properties work with the Sprites you create. 
 
