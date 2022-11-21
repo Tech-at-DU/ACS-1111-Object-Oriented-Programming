@@ -32,19 +32,19 @@ Course Dates: October 19 though December 9, 2022
 |:-----:|:-----|:-------|:------------|
 |  1 | Wed, Oct 19 | [Scope] | - |
 |  2 | Mon, Oct 24 | [Objects & Encapsulation] | - |
-|  3 | Wed, Oct 26 | [Attributes & Methods] | [Bank Account] |
+|  3 | Wed, Oct 26 | [Attributes & Methods] | [Bank Account] Due |
 |  4 | Mon, Oct 31 | [Inheritance] | - |  
 |  5 | Wed, Nov 2 | [Access Modifiers, Composition & Design] | - |
-|  6 | Mon, Nov 7 | [Pygame] & [Pygame Tutorial] | [Super Hero Dueler] |
+|  6 | Mon, Nov 7 | [Pygame] & [Pygame Tutorial] | [Super Hero Dueler] Due |
 |  7 | Wed, Nov 9 | [Polymorphism] | - |
 | 8 | Mon, Nov 14 | [Inheriting from Built In's and Overloading] | - |
 | 9 | Wed, Nov 16 | [Function Arguments and Overloading] | - |
-| 10 | Mon, Nov 21 | [Decorators] | - |
-| 11 | Wed, Nov 23 | [Abstract Classes & Static/Class Methods] | Project 3: OOP Design Challenge <br/> [Project Prompt](Lessons/oop_design_challenge.md) |
-| 12 | Mon, Nov 28 | [Multiple Inheritance & Mix-ins] | - |
-| 12 | Wed, Nov 30 | Lab Day: Work on Presentations, Projects | - |
-| 13 | Mon, Dec  5 | OOP Design Challenge Presentations | - |
-| 14 | Wed, Dec  7 | [Final Assessment](Projects/oop-challenge.md) ([Study Guide](study-guide.md)) | [Herd Immunity] |
+| 10 | Mon, Nov 21 | Abstract Classes & Static/Class Methods] | [Herd Immunity] Kickoff |
+| 11 | Wed, Nov 23 | NO CLASS: Thanksgiving Break |
+| 12 | Mon, Nov 28 | [Decorators] | [Project 3: OOP Design Challenge <br/> [Project Prompt](Lessons/oop_design_challenge.md) Kickoff |
+| 12 | Wed, Nov 30 | [Multiple Inheritance & Mix-ins] / Lab Day: OOP Design Challenge | - |
+| 13 | Mon, Dec  5 | OOP Design Challenge Presentations | OOP Design Challenge Due |
+| 14 | Wed, Dec  7 | [Final Assessment](Projects/oop-challenge.md) ([Study Guide](study-guide.md)) | [Herd Immunity] Due |
 
 [Scope]: Lessons/scope.md
 [Objects & Encapsulation]: Lessons/objects_encapsulation.md
