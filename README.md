@@ -10,7 +10,7 @@ This course reinforces the fundamentals of programming including variables, data
 
 ## Course Specifics
 
-**Course Delivery**: Online | 8 weeks | 24 sessions
+**Course Delivery**: Online | 8 weeks | 14 sessions
 
 **Course Credits**: 3 units 
 
