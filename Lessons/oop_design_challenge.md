@@ -41,7 +41,7 @@ Diagram:
 - You can achieve this by creating UML Class Diagrams. Here is a template on how to make them, [here](https://docs.google.com/presentation/d/1OQ4Q3KV3MIuR_K7IKnnaJ2jGHv8NOeGpMbMhnFwJkbo/edit#slide=id.p1).
 
 Presentation:
-- 5 - 10 min video presentation showing your project in action and touring your various classes. Recorded using Quick Time and uploaded to YouTube.
+- 5 - 10 min video presentation that shows off your various classes. Recorded using Quick Time and uploaded to YouTube.
 
 ## Example Idea
 
