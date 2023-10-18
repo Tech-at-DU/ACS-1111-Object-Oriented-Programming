@@ -214,4 +214,4 @@ display_bill()
 
 ## After Class
 
-There is no homework for today! 
+See the slides for homework! 
