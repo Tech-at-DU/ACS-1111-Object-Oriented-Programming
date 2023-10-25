@@ -89,10 +89,10 @@ dog_1 = Dog()
 dog_2 = Dog()
 dog_3 = Dog()
 
-# TODO: Using the object variable names, create a list of Dog objects called dogs.
+# TODO: Using the instance variable names, create a list of Dog objects called dogs.
 
 
-# TODO: Using the loop print the names of the dogs
+# TODO: Using the loop print the name of each dog
 
 
 # TODO: Using a loop, delete breed attribute for all the dogs in the list dogs
@@ -106,8 +106,6 @@ dog_3 = Dog()
 
 
 ```
-
-  <!-- * Coding Exercise 3: [https://repl.it/@MakeSchool/WeatherAttributesPractice](https://repl.it/@MakeSchool/WeatherAttributesPractice) -->
 
 ## Challenge 2
 
@@ -143,8 +141,6 @@ class Location:
 
 
 ```
-
-  <!-- * Coding Exercise 4: [https://repl.it/@MakeSchool/ClassAttributes](https://repl.it/@MakeSchool/ClassAttributes) -->
 
 ## Challenge 2.5
 
