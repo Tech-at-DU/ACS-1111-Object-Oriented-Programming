@@ -39,11 +39,11 @@ Course Dates: October 18 though December 7, 2023
 |  7 | Wed, Nov 8 | [Polymorphism] | - |
 | 8 | Mon, Nov 13 | [Inheriting from Built In's and Overloading] | - |
 | 9 | Wed, Nov 15 | [Function Arguments and Overloading] | - |
-| 10 | Mon, Nov 20 | [Abstract Classes & Static/Class Methods] | [Herd Immunity] Kickoff |
+| 10 | Mon, Nov 20 | [Abstract Classes & Static/Class Methods] | [Pygame Tutorial] Due |
 | 11 | Wed, Nov 22 | **NO CLASS**: _Thanksgiving Break_ | - |
-| 12 | Mon, Nov 27 | [Decorators] | [OOP Design Challenge](Lessons/oop_design_challenge.md) Kickoff |
+| 12 | Mon, Nov 27 | [Decorators] | - |
 | 12 | Wed, Nov 29 | [Multiple Inheritance & Mix-ins] / Lab Day: [OOP Design Challenge](Lessons/oop_design_challenge.md) | - |
-| 13 | Mon, Dec  4 | [OOP Design Challenge](Lessons/oop_design_challenge.md) Presentations | _Due During Class_ |
+| 13 | Mon, Dec  4 | [OOP Design Challenge](Lessons/oop_design_challenge.md) Presentations | - |
 | 14 | Wed, Dec  6 | [Final Assessment](Projects/oop-challenge.md) ([Study Guide](study-guide.md)) | [Herd Immunity] Due |
 
 [Scope]: Lessons/scope.md
