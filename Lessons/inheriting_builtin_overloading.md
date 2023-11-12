@@ -30,6 +30,18 @@ The constructor takes care of setting up the object. This allows us to create ne
 
 joi_acc = Account('Joi Anderson', 1000)
 print(joi_acc)
+# Try these 
+print(joi_acc.__str__())
+print(joi_acc.__repr__())
+
+#lets import the datetime module
+import datetime
+
+#lets get the current date and time
+# Notice how datetime displays __str__ and __repr__ differently!
+now = datetime.datetime.now()
+print('Using str: ' + now.__str__())
+print('Using repr: ' + now.__repr__())
 ```
 
   <!-- * Coding Exercise 2: [https://repl.it/@MakeSchool/magicmethods](https://repl.it/@MakeSchool/magicmethods) -->
