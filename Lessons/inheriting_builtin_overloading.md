@@ -45,7 +45,7 @@ print('Using repr: ' + now.__repr__())
 ```
 
 
-Define __str__ and __repr__ for this class: 
+Define `__str__` and `__repr__` for this class: 
 
 ```python
 '''
