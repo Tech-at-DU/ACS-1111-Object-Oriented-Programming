@@ -7,8 +7,8 @@
   <!-- Put a link to the slides -->
 * [**Slides**](https://docs.google.com/presentation/d/1rPcYDndeV2l5WiG9xPyF_KGwFzw_4CX07lyqJrcwqZA/edit?usp=sharing)
 
-* **Repls:**
-  * Coding Exercise 1: [https://repl.it/@MakeSchool/Init](https://repl.it/@MakeSchool/Init)
+<!-- * **Repls:**
+  * Coding Exercise 1: [https://repl.it/@MakeSchool/Init](https://repl.it/@MakeSchool/Init) -->
 
 ```python 
 '''
@@ -32,7 +32,7 @@ joi_acc = Account('Joi Anderson', 1000)
 print(joi_acc)
 ```
 
-  * Coding Exercise 2: [https://repl.it/@MakeSchool/magicmethods](https://repl.it/@MakeSchool/magicmethods)
+  <!-- * Coding Exercise 2: [https://repl.it/@MakeSchool/magicmethods](https://repl.it/@MakeSchool/magicmethods) -->
 
 ```python
 # main.py
@@ -78,7 +78,7 @@ class Animal:
     Animal.animal_count -= 1
 ```
 
-  * Coding Exercise 3: [https://repl.it/@MakeSchool/BuiltInsDocs](https://repl.it/@MakeSchool/BuiltInsDocs)
+<!--   * Coding Exercise 3: [https://repl.it/@MakeSchool/BuiltInsDocs](https://repl.it/@MakeSchool/BuiltInsDocs) -->
 
 ```python
 # See source code for "str" object
@@ -103,7 +103,7 @@ class Animal:
 #print(help(set))
 
 ```
-  * Coding Exercise 4: [https://repl.it/@MakeSchool/stringonlylist](https://repl.it/@MakeSchool/stringonlylist)
+ <!--  * Coding Exercise 4: [https://repl.it/@MakeSchool/stringonlylist](https://repl.it/@MakeSchool/stringonlylist) -->
 
 ```python
 # main.py
