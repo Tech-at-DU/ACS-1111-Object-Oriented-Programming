@@ -44,7 +44,42 @@ print('Using str: ' + now.__str__())
 print('Using repr: ' + now.__repr__())
 ```
 
-  <!-- * Coding Exercise 2: [https://repl.it/@MakeSchool/magicmethods](https://repl.it/@MakeSchool/magicmethods) -->
+
+Define __str__ and __repr__ for this class: 
+
+```python
+'''
+To construct account objects from the Account class below I need a constructor which in Python is the __init__ magic method/dunder:
+'''
+
+class Account:
+  # Magic method/dunder __init__
+  def __init__(self, owner, amount): 
+    self.owner = owner
+    self.amount = amount
+    self._transactions = []
+  # Define __str__ for this class
+  def __str__(self):
+      return f'Bank Account owner {self.owner} and amount {self.amount}'
+  # Define __repr__ for this class
+  def __repr__(self):
+      return f'Account(\'{self.owner}\', {self.amount})'
+
+
+'''
+The constructor takes care of setting up the object. This allows us to create new accounts like this:
+'''
+
+joi_acc = Account('Joi Anderson', 1000)
+# Notice here python prints __str__
+print(joi_acc)
+# Try these 
+print(joi_acc.__str__())
+print(joi_acc.__repr__())
+```
+
+
+
 
 ```python
 # main.py
