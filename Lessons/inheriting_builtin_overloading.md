@@ -110,7 +110,7 @@ class Animal:
 
   def __str__(self):
     """Override the str magic method to show the name"""
-    return f"I'm an Animal and my name is {self._name}"
+    return f"I'm an Animal and my name is {self._name} (Animals so far: {Animal.animal_count})"
  
   def __repr__(self):
     """Override the repsr magic method to display a message to devs"""
