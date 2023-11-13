@@ -7,8 +7,8 @@
   <!-- Put a link to the slides -->
 * [**Slides**](https://docs.google.com/presentation/d/1rPcYDndeV2l5WiG9xPyF_KGwFzw_4CX07lyqJrcwqZA/edit?usp=sharing)
 
-* **Repls:**
-  * Coding Exercise 1: [https://repl.it/@MakeSchool/Init](https://repl.it/@MakeSchool/Init)
+<!-- * **Repls:**
+  * Coding Exercise 1: [https://repl.it/@MakeSchool/Init](https://repl.it/@MakeSchool/Init) -->
 
 ```python 
 '''
@@ -30,9 +30,56 @@ The constructor takes care of setting up the object. This allows us to create ne
 
 joi_acc = Account('Joi Anderson', 1000)
 print(joi_acc)
+# Try these 
+print(joi_acc.__str__())
+print(joi_acc.__repr__())
+
+#lets import the datetime module
+import datetime
+
+#lets get the current date and time
+# Notice how datetime displays __str__ and __repr__ differently!
+now = datetime.datetime.now()
+print('Using str: ' + now.__str__())
+print('Using repr: ' + now.__repr__())
 ```
 
-  * Coding Exercise 2: [https://repl.it/@MakeSchool/magicmethods](https://repl.it/@MakeSchool/magicmethods)
+
+Define `__str__` and `__repr__` for this class: 
+
+```python
+'''
+To construct account objects from the Account class below I need a constructor which in Python is the __init__ magic method/dunder:
+'''
+
+class Account:
+  # Magic method/dunder __init__
+  def __init__(self, owner, amount): 
+    self.owner = owner
+    self.amount = amount
+    self._transactions = []
+  # Define __str__ for this class
+  def __str__(self):
+      return f'Bank Account owner {self.owner} and amount {self.amount}'
+  # Define __repr__ for this class
+  def __repr__(self):
+      return f'Account(\'{self.owner}\', {self.amount})'
+
+
+'''
+The constructor takes care of setting up the object. This allows us to create new accounts like this:
+'''
+
+joi_acc = Account('Joi Anderson', 1000)
+# Notice here python prints __str__
+print(joi_acc)
+# Try these 
+print(joi_acc.__str__())
+print(joi_acc.__repr__())
+```
+
+
+
 
 ```python
 # main.py
@@ -63,7 +110,7 @@ class Animal:
 
   def __str__(self):
     """Override the str magic method to show the name"""
-    return f"I'm an Animal and my name is {self._name}"
+    return f"I'm an Animal and my name is {self._name} (Animals so far: {Animal.animal_count})"
  
   def __repr__(self):
     """Override the repsr magic method to display a message to devs"""
@@ -78,7 +125,7 @@ class Animal:
     Animal.animal_count -= 1
 ```
 
-  * Coding Exercise 3: [https://repl.it/@MakeSchool/BuiltInsDocs](https://repl.it/@MakeSchool/BuiltInsDocs)
+<!--   * Coding Exercise 3: [https://repl.it/@MakeSchool/BuiltInsDocs](https://repl.it/@MakeSchool/BuiltInsDocs) -->
 
 ```python
 # See source code for "str" object
@@ -103,7 +150,7 @@ class Animal:
 #print(help(set))
 
 ```
-  * Coding Exercise 4: [https://repl.it/@MakeSchool/stringonlylist](https://repl.it/@MakeSchool/stringonlylist)
+ <!--  * Coding Exercise 4: [https://repl.it/@MakeSchool/stringonlylist](https://repl.it/@MakeSchool/stringonlylist) -->
 
 ```python
 # main.py
