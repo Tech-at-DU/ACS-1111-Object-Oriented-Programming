@@ -360,12 +360,12 @@ class Tiger(Animal):
 
 ```
 
-  * Coding Exercise 7:
+  <!-- * Coding Exercise 7:
 
 [https://repl.it/@MakeSchool/abstractclasspractice#main.py](https://repl.it/@MakeSchool/abstractclasspractice#main.py)
 
 ```python
 
-```
+``` -->
 
 <!-- > -->
