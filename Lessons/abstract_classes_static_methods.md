@@ -8,7 +8,9 @@
 * [**Slides**](https://docs.google.com/presentation/d/1UDoctLTBnG0p0x1QIqFrWZUNE0GIrLXXco6e0WuQURg/edit?usp=sharing)
 
 * **Repls:**
-  * Coding Exercise 1: [https://repl.it/@MakeSchool/InstanceMethodsExample#main.py](https://repl.it/@MakeSchool/InstanceMethodsExample#main.py)
+  * Coding Exercise 1:
+  
+  <!-- [https://repl.it/@MakeSchool/InstanceMethodsExample#main.py](https://repl.it/@MakeSchool/InstanceMethodsExample#main.py) -->
 
 ```python
 class Student:
@@ -49,7 +51,9 @@ print(jay.courses)
 print(jay.__dict__)
 ```
 
-  * Coding Exercise 2: [https://repl.it/@MakeSchool/ClassMethodExample#main.py](https://repl.it/@MakeSchool/ClassMethodExample#main.py)
+  * Coding Exercise 2:
+  
+  <!-- [https://repl.it/@MakeSchool/ClassMethodExample#main.py](https://repl.it/@MakeSchool/ClassMethodExample#main.py) -->
 
 ```python
 class Student:
@@ -104,7 +108,9 @@ print(tristan.tuition)
 
 ```
 
-  * Coding Exercise 3: [https://repl.it/@MakeSchool/FactoryMethod#main.py](https://repl.it/@MakeSchool/FactoryMethod#main.py)
+  * Coding Exercise 3:
+
+<!-- [https://repl.it/@MakeSchool/FactoryMethod#main.py](https://repl.it/@MakeSchool/FactoryMethod#main.py) -->
 
 ```python
 class Movie:
@@ -149,7 +155,9 @@ print(moana.__dict__)
 
 ```
 
-  * Coding Exercise 4: [https://repl.it/@MakeSchool/StaticMethodStudentExample#main.py](https://repl.it/@MakeSchool/StaticMethodStudentExample#main.py)
+  * Coding Exercise 4:
+
+<!-- [https://repl.it/@MakeSchool/StaticMethodStudentExample#main.py](https://repl.it/@MakeSchool/StaticMethodStudentExample#main.py) -->
 
 ```python
 class Student:
@@ -195,7 +203,8 @@ print( Student.is_classday('Monday') )
 print( Student.is_classday('Sunday') )
 ```
 
-  * Coding Exercise 5: [https://repl.it/@MakeSchool/staticvsinstancemethods#main.py](https://repl.it/@MakeSchool/staticvsinstancemethods#main.py)
+  * Coding Exercise 5:
+<!-- [https://repl.it/@MakeSchool/staticvsinstancemethods#main.py](https://repl.it/@MakeSchool/staticvsinstancemethods#main.py) -->
 
 ```python
 # main.py
@@ -258,7 +267,9 @@ class CalculatorStatic:
   
 ```
 
-  * Coding Exercise 6: [https://repl.it/@MakeSchool/abstractclass#main.py](https://repl.it/@MakeSchool/abstractclass#main.py)
+  * Coding Exercise 6:
+
+<!-- [https://repl.it/@MakeSchool/abstractclass#main.py](https://repl.it/@MakeSchool/abstractclass#main.py) -->
 
 ```python
 # main.py
@@ -349,7 +360,9 @@ class Tiger(Animal):
 
 ```
 
-  * Coding Exercise 7: [https://repl.it/@MakeSchool/abstractclasspractice#main.py](https://repl.it/@MakeSchool/abstractclasspractice#main.py)
+  * Coding Exercise 7:
+
+[https://repl.it/@MakeSchool/abstractclasspractice#main.py](https://repl.it/@MakeSchool/abstractclasspractice#main.py)
 
 ```python
 
