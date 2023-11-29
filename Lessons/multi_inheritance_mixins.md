@@ -49,7 +49,7 @@ student_example.get_courses()
 #print(help(Student))
 ```
 
-  * Coding Exercise 2: [https://repl.it/@MakeSchool/MultipleInheritanceSyntax#main.py](https://repl.it/@MakeSchool/MultipleInheritanceSyntax#main.py)
+  * Coding Exercise 2: <!-- [https://repl.it/@MakeSchool/MultipleInheritanceSyntax#main.py](https://repl.it/@MakeSchool/MultipleInheritanceSyntax#main.py) -->
 
 ```python
 class Mammal:
