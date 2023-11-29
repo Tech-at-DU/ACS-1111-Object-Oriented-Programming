@@ -7,8 +7,8 @@
   <!-- Put a link to the slides -->
 * [**Slides**](https://docs.google.com/presentation/d/1XNlnRFBA6fJeifNT3ecG1LSHr_xR7ll5lgLXi-OXsdE/edit?usp=sharing)
 
-* **Repls:**
-  * Coding Exercise 1: [https://repl.it/@MakeSchool/inheritanceoverridingpractice](https://repl.it/@MakeSchool/inheritanceoverridingpractice)
+<!-- * **Repls:**
+  * Coding Exercise 1: [https://repl.it/@MakeSchool/inheritanceoverridingpractice](https://repl.it/@MakeSchool/inheritanceoverridingpractice) -->
 
 ```python
 # Superclass - Parent
