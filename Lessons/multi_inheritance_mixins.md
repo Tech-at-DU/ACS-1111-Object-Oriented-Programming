@@ -75,7 +75,7 @@ print(isinstance(battie, WingedAnimal))
 
 ```
 
-  * Coding Exercise 3: [https://repl.it/@MakeSchool/MultipleInheritance#main.py](https://repl.it/@MakeSchool/MultipleInheritance#main.py)
+  * Coding Exercise 3: <!-- [https://repl.it/@MakeSchool/MultipleInheritance#main.py](https://repl.it/@MakeSchool/MultipleInheritance#main.py) -->
 
 ```python
 # main.py
@@ -153,13 +153,13 @@ class WingedAnimal:
 
 ```
 
-  * Coding Exercise 4: [https://repl.it/@JessDahmen/multipleinheritancepractice](https://repl.it/@JessDahmen/multipleinheritancepractice)
+  * Coding Exercise 4: <!-- [https://repl.it/@JessDahmen/multipleinheritancepractice](https://repl.it/@JessDahmen/multipleinheritancepractice) -->
 
 ```python
 #TODO: make you own example of multiple inheritance
 ```
 
-  * Coding Exercise 5: [https://www.residentmar.io/2019/07/07/python-mixins.html](https://www.residentmar.io/2019/07/07/python-mixins.html)
+  * Coding Exercise 5: <!-- [https://www.residentmar.io/2019/07/07/python-mixins.html](https://www.residentmar.io/2019/07/07/python-mixins.html) -->
 
 ```python
 
