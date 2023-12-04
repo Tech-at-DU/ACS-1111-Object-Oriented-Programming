@@ -50,7 +50,7 @@ Create three instances of the Person class. Give each a different name and favor
 
 -------------
 
-## Challenge 3 
+## Challenge 5 
 
 `CoffeeBar` is a class that has a name and a list of orders. 
 
@@ -62,7 +62,7 @@ It has a `place_order` method which takes an `Order` instance which it appends t
 
 -------------
 
-## Challenge 4 
+## Challenge 6 
 
 Create an instance of `CoffeeBar`. Give your `CoffeeBar` a name.
 
@@ -70,7 +70,7 @@ Create an instance of `CoffeeBar`. Give your `CoffeeBar` a name.
 
 -------------
 
-## Challenge 5 
+## Challenge 7 
 
 Have each of your three customers (Amy, Bob, Cat) place an order with your coffee bar.
 
@@ -80,7 +80,7 @@ You should be calling the person's `my_order` method to get the order and passin
 
 -------------
 
-## Challenge 6 
+## Challenge 8 
 
 Process all of the orders at your `Coffeebar` instance.
 
@@ -90,7 +90,7 @@ Call the `process_orders` method on your coffee bar instance.
 
 -------------
 
-## Challenge 7 
+## Challenge 9
 
 Make a `Barista` class. This class extends the `Person` class and adds a `greeting` attribute. 
 
@@ -98,7 +98,7 @@ Make a `Barista` class. This class extends the `Person` class and adds a `greeti
 
 -------------
 
-## Challenge 8 
+## Challenge 10 
 
 Make an instance of a barista named Kevin. Kevin's greeting is "Hey dude!"
 
@@ -106,7 +106,7 @@ Make an instance of a barista named Kevin. Kevin's greeting is "Hey dude!"
 
 -------------
 
-## Challenge 9 
+## Challenge 11 
 
 Add a new barista attribute to the CoffeeBar class. 
 
@@ -114,7 +114,7 @@ Add a new barista attribute to the CoffeeBar class.
 
 -------------
 
-## Challenge 10 
+## Challenge 12 
 
 Assign your Barista, Kevin to your CoffeeBar instance. 
 
@@ -122,7 +122,7 @@ Assign your Barista, Kevin to your CoffeeBar instance.
 
 -------------
 
-## Challenge 11 
+## Challenge 13
 
 Modify the `process_order` method of the Coffeebar class so that it prints the barista's greeting before it prints the order string. For example, if Kevin is the barista processing an order should read something like: "Hey dude! Amy orders: Coffee"
 
@@ -130,7 +130,7 @@ Modify the `process_order` method of the Coffeebar class so that it prints the b
 
 -------------
 
-## Challenge 12 (stretch) 
+## Challenge 14 (stretch) 
 
 The following problems are all stretch goals. These are all optional problems to solve. 
 
