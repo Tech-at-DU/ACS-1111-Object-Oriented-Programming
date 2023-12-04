@@ -43,8 +43,8 @@ Course Dates: October 18 though December 7, 2023
 | 11 | Wed, Nov 22 | **NO CLASS**: _Thanksgiving Break_ | - |
 | 12 | Mon, Nov 27 | [Decorators] | - |
 | 13 | Wed, Nov 29 | [Multiple Inheritance & Mix-ins] | - |
-| 14 | Mon, Dec  4 | [OOP Challenge](Projects/oop-challenge.md) | - |
-| 15 | Wed, Dec  6 | [Final Assessment](Projects/oop-challenge.md) ([Study Guide](study-guide.md)) | [Herd Immunity] Due |
+| 14 | Mon, Dec  4 | [Final Assessment](Projects/oop-challenge.md)  | - |
+| 15 | Wed, Dec  6 | ([Study Guide](study-guide.md)) | [Herd Immunity] Due |
 
 [Scope]: Lessons/scope.md
 [Objects & Encapsulation]: Lessons/objects_encapsulation.md
