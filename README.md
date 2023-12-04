@@ -42,8 +42,8 @@ Course Dates: October 18 though December 7, 2023
 | 10 | Mon, Nov 20 | [Abstract Classes & Static/Class Methods] | [Pygame Tutorial] Due |
 | 11 | Wed, Nov 22 | **NO CLASS**: _Thanksgiving Break_ | - |
 | 12 | Mon, Nov 27 | [Decorators] | - |
-| 13 | Wed, Nov 29 | [Multiple Inheritance & Mix-ins] / Lab Day: [OOP Design Challenge](Lessons/oop_design_challenge.md) | - |
-| 14 | Mon, Dec  4 | [OOP Design Challenge](Lessons/oop_design_challenge.md) Presentations | - |
+| 13 | Wed, Nov 29 | [Multiple Inheritance & Mix-ins] | - |
+| 14 | Mon, Dec  4 | [OOP Challenge](Projects/oop-challenge.md) Presentations | - |
 | 15 | Wed, Dec  6 | [Final Assessment](Projects/oop-challenge.md) ([Study Guide](study-guide.md)) | [Herd Immunity] Due |
 
 [Scope]: Lessons/scope.md
