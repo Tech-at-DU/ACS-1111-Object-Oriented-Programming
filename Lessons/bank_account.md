@@ -20,7 +20,7 @@ Your BankAccount class should also define methods that perform common banking ac
 
 Follow the steps below: 
 
-1. Your Python program should be created in one file called `BankAccount.py`.
+1. Your Python program should be created in one file called `bank_account.py`.
 1. Define a `BankAccount` class.
 1. A bank account should have the following attributes:
    * `full_name` - the full name of the bank account account owner.
