@@ -76,7 +76,6 @@ All assignments will be submitted on Gradescope. Your instructor will provide ac
 
 To pass this course you must meet the following requirements:
 
-- Complete all in-class quizzes. If a quiz is missing, you will need to request a retake/extension.
 - Pass all assignments and projects with a score 70% or higher.
 - All assignments are scored according to the associated assignment rubric.
 - Actively participate in class and abide by the attendance policy.
