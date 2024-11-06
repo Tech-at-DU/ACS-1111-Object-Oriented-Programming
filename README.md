@@ -25,26 +25,24 @@ Students by the end of the course will be able to ...
 
 ## Schedule
 
-Schedule: Monday and Wednesday, 1:00 PM to 3:45 PM <br>
-Course Dates: October 18 though December 7, 2023
+<!-- Schedule: Monday and Wednesday, 1:00 PM to 3:45 PM <br>
+Course Dates: October 18 though December 7, 2023 -->
 
-| Class | Date | Topics | Assignments |
-|:-----:|:-----|:-------|:------------|
-|  1 | Wed, Oct 18 | [Scope] | - |
-|  2 | Mon, Oct 23 | [Objects & Encapsulation] | - |
-|  3 | Wed, Oct 25 | [Attributes & Methods] | [Bank Account] Due |
-|  4 | Mon, Oct 30 | [Inheritance] | - |  
-|  5 | Wed, Nov 1 | [Access Modifiers, Composition & Design] | - |
-|  6 | Mon, Nov 6 | [Pygame] & [Pygame Tutorial] | [Super Hero Dueler] Due |
-|  7 | Wed, Nov 8 | [Polymorphism] | - |
-| 8 | Mon, Nov 13 | [Inheriting from Built In's and Overloading] | - |
-| 9 | Wed, Nov 15 | [Function Arguments and Overloading] | - |
-| 10 | Mon, Nov 20 | [Abstract Classes & Static/Class Methods] | [Pygame Tutorial] Due |
-| 11 | Wed, Nov 22 | **NO CLASS**: _Thanksgiving Break_ | - |
-| 12 | Mon, Nov 27 | [Decorators] | - |
-| 13 | Wed, Nov 29 | [Multiple Inheritance & Mix-ins] | - |
-| 14 | Mon, Dec  4 | ([Study Guide](study-guide.md)) | [Final Assessment](Projects/oop-challenge.md) |
-| 15 | Wed, Dec  6 | - | [Herd Immunity] Due |
+| Class | Topics | Assignments |
+|:-----:|:-------|:------------|
+|  1  | [Scope] | - |
+|  2  | [Objects & Encapsulation] | - |
+|  3  | [Attributes & Methods] | [Bank Account] Due |
+|  4  | [Inheritance] | - |  
+|  5  | [Access Modifiers, Composition & Design] | - |
+|  6  | [Pygame] & [Pygame Tutorial] | |
+|  7  | [Polymorphism] | - |
+| 8   | [Inheriting from Built In's and Overloading] | [Pygame Tutorial] Due |
+| 9   | [Function Arguments and Overloading] | [Super Hero Dueler] Due  |
+| 10  | [Abstract Classes & Static/Class Methods] |  |
+| 11  | [Decorators] | - |
+| 12  | [Multiple Inheritance & Mix-ins] | - |
+| 13  | ([Study Guide](study-guide.md)) | [Final Assessment](Projects/oop-challenge.md) & [Herd Immunity] Due  |
 
 [Scope]: Lessons/scope.md
 [Objects & Encapsulation]: Lessons/objects_encapsulation.md
