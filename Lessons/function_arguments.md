@@ -5,7 +5,7 @@
 
 **📝 &nbsp;Class Materials:** 
   <!-- Put a link to the slides -->
-* [**Slides**](https://docs.google.com/presentation/d/14sAXnY1F9KJBEZTg8JmlMTKZ4ZXCDJbXOOgfro_5F8c/edit?usp=sharing)
+* [**Slides**](https://docs.google.com/presentation/d/19KGxaVHIJUXlig9PACenEGdB4zcub4QlgkaMf_GlE44)
 * **Repls:**
   * Coding Exercise 1: [https://repl.it/@MakeSchool/DefaultArguments](https://repl.it/@MakeSchool/DefaultArguments)
 
