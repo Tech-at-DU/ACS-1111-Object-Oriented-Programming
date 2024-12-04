@@ -7,8 +7,7 @@
   <!-- Put a link to the slides -->
 * [**Slides**](https://docs.google.com/presentation/d/1XNlnRFBA6fJeifNT3ecG1LSHr_xR7ll5lgLXi-OXsdE/edit?usp=sharing)
 
-<!-- * **Repls:**
-  * Coding Exercise 1: [https://repl.it/@MakeSchool/inheritanceoverridingpractice](https://repl.it/@MakeSchool/inheritanceoverridingpractice) -->
+## Coding Exercise 1
 
 ```python
 # Superclass - Parent
@@ -49,7 +48,7 @@ student_example.get_courses()
 #print(help(Student))
 ```
 
-  * Coding Exercise 2: <!-- [https://repl.it/@MakeSchool/MultipleInheritanceSyntax#main.py](https://repl.it/@MakeSchool/MultipleInheritanceSyntax#main.py) -->
+## Coding Exercise 2
 
 ```python
 class Mammal:
@@ -75,7 +74,7 @@ print(isinstance(battie, WingedAnimal))
 
 ```
 
-  * Coding Exercise 3: <!-- [https://repl.it/@MakeSchool/MultipleInheritance#main.py](https://repl.it/@MakeSchool/MultipleInheritance#main.py) -->
+## Coding Exercise 3
 
 ```python
 # main.py
@@ -150,18 +149,6 @@ class WingedAnimal:
       print("I'm a winged animal and can fly")
     else:
       print("I'm a winged animal")
-
-```
-
-  * Coding Exercise 4: <!-- [https://repl.it/@JessDahmen/multipleinheritancepractice](https://repl.it/@JessDahmen/multipleinheritancepractice) -->
-
-```python
-#TODO: make you own example of multiple inheritance
-```
-
-  * Coding Exercise 5: <!-- [https://www.residentmar.io/2019/07/07/python-mixins.html](https://www.residentmar.io/2019/07/07/python-mixins.html) -->
-
-```python
 
 ```
 
