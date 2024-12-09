@@ -42,7 +42,7 @@ Course Dates: October 18 though December 7, 2023 -->
 | 10  | [Abstract Classes & Static/Class Methods] |  |
 | 11  | [Decorators] | - |
 | 12  | [Multiple Inheritance & Mix-ins] | - |
-| 13  | In Class Review Day | - |
+| 13  | [In Class Review Day](https://www.playfactile.com/jeopardy-game/acs1111review/play) | - |
 | 14  | In Class Final Assessment ([Study Guide](study-guide.md)) | [Herd Immunity] Due  |
 
 [Scope]: Lessons/scope.md
